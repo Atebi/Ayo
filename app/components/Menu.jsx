@@ -3,6 +3,7 @@
 import { useRef, useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { HiMenuAlt3 } from "react-icons/hi";
+import Link from "next/link";
 
 const Menu = () => {
   const [isFocused, setIsFocused] = useState(false);
@@ -80,29 +81,29 @@ const Menu = () => {
           aria-labelledby="navBtn"
         >
           <li>
-            <a
+            <Link
               className="text-xl text-neutral-500 hover:opacity-70 active:opacity-100"
               onClick={handleLink}
               href="/home"
             >
               home
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
               className="text-xl text-neutral-500 hover:opacity-70 active:opacity-100"
               href="/about"
             >
               about
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
               className="text-xl text-neutral-500 hover:opacity-70 active:opacity-100"
               href="/contact"
             >
               contact
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

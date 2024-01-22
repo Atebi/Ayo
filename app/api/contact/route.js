@@ -1,6 +1,11 @@
 import Transporter from "@/app/utils/nodemailer";
 import { NextResponse } from "next/server";
 
+require("dotenv").config();
+const FIRST = process.env.first_reciever;
+const SECOND = process.env.second_reciever;
+const SENDER = process.env.sender;
+
 export async function POST(req, res) {
   console.log(req.body);
 
@@ -8,7 +13,7 @@ export async function POST(req, res) {
 
   const mailData = {
     from: "lakataiyela@yahoo.com",
-    to: ["ayomideiyela@gmail.com", "iyelaatebi@gmail.com", "lakataiyela@yahoo.com"],
+    to: [FIRST, SECOND, SENDER],
     subject: `JOB offer! From ${name}`,
     text: message,
     html: `<div>

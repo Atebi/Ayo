@@ -31,7 +31,7 @@ const Solution = () => {
         {/* moodboard Image */}
         <div className="relative mx-auto mb-10 block w-full max-w-4xl bg-slate-300 shadow-lg">
           <Image
-            src="/fin_moodboard.webp"
+            src="/ayo/fin_moodboard.webp"
             alt="Finscious moodboard"
             // placeholder="blur"
             priority={true}
@@ -70,7 +70,7 @@ const Solution = () => {
         {/* style guide img for ui design fin_style */}
         <div className="relative mx-auto mb-10 block w-full bg-neutral-200/50 py-10">
           <Image
-            src="/fin_style.webp"
+            src="/ayo/fin_style.webp"
             alt="Finscious style guide image"
             // placeholder="blur"
             // priority={true}
@@ -98,7 +98,7 @@ const Solution = () => {
           {/* img-1 */}
           <div className="shadow-3xl relative max-w-sm rounded-3xl bg-slate-300 ">
             <Image
-              src="/fin_onboarding_1.webp"
+              src="/ayo/fin_onboarding_1.webp"
               // fill={true}
               alt="Finscious onboarding image 1"
               // priority={true}
@@ -114,7 +114,7 @@ const Solution = () => {
           {/* img-2 */}
           <div className="shadow-3xl relative max-w-sm rounded-3xl bg-slate-300 ">
             <Image
-              src="/fin_onboarding_2.webp"
+              src="/ayo/fin_onboarding_2.webp"
               // fill={true}
               alt="Finscious onboarding image 2"
               // priority={true}
@@ -130,7 +130,7 @@ const Solution = () => {
           {/* img-3 */}
           <div className="shadow-3xl relative max-w-sm rounded-3xl bg-slate-300 ">
             <Image
-              src="/fin_onboarding_3.webp"
+              src="/ayo/fin_onboarding_3.webp"
               // fill={true}
               alt="Finscious onboarding image 3"
               // priority={true}
@@ -167,7 +167,7 @@ const Solution = () => {
           {/* img-1 */}
           <div className="shadow-3xl relative max-w-sm rounded-3xl bg-slate-300 ">
             <Image
-              src="/fin_signup.webp"
+              src="/ayo/fin_signup.webp"
               // fill={true}
               alt="Finscious signup image"
               // priority={true}
@@ -183,7 +183,7 @@ const Solution = () => {
           {/* img-2 */}
           <div className="shadow-3xl relative max-w-sm rounded-3xl bg-slate-300 ">
             <Image
-              src="/fin_login.webp"
+              src="/ayo/fin_login.webp"
               // fill={true}
               alt="Finscious login image"
               // priority={true}
@@ -218,7 +218,7 @@ const Solution = () => {
         {/* home img */}
         <div className="shadow-3xl relative max-w-sm rounded-3xl ">
           <Image
-            src="/fin_home.webp"
+            src="/ayo/fin_home.webp"
             // fill={true}
             alt="Finscious home image"
             // priority={true}
@@ -254,7 +254,7 @@ const Solution = () => {
           {/* income img */}
           <div className="shadow-3xl relative max-w-sm rounded-3xl bg-slate-300 ">
             <Image
-              src="/fin_income.webp"
+              src="/ayo/fin_income.webp"
               // fill={true}
               alt="Finscious income image"
               // priority={true}
@@ -270,7 +270,7 @@ const Solution = () => {
           {/* expenses img */}
           <div className="shadow-3xl relative max-w-sm rounded-3xl ">
             <Image
-              src="/fin_expenses.webp"
+              src="/ayo/fin_expenses.webp"
               // fill={true}
               alt="Finscious expense image"
               // priority={true}
@@ -303,7 +303,7 @@ const Solution = () => {
           {/* add-income img */}
           <div className="shadow-3xl relative max-w-sm rounded-3xl bg-slate-300 ">
             <Image
-              src="/fin_add_income.webp"
+              src="/ayo/fin_add_income.webp"
               // fill={true}
               alt="Finscious add-income image"
               // priority={true}
@@ -319,7 +319,7 @@ const Solution = () => {
           {/* add-expenses img */}
           <div className="shadow-3xl relative max-w-sm rounded-3xl bg-slate-300 ">
             <Image
-              src="/fin_add_expense.webp"
+              src="/ayo/fin_add_expense.webp"
               // fill={true}
               alt="Finscious add-expense image"
               // priority={true}
@@ -362,7 +362,7 @@ const Solution = () => {
           {/* yearly-income img */}
           <div className="shadow-3xl relative max-w-sm rounded-3xl bg-slate-300 ">
             <Image
-              src="/fin_yearly_income.webp"
+              src="/ayo/fin_yearly_income.webp"
               // fill={true}
               alt="Finscious yearly-income image"
               // priority={true}
@@ -378,7 +378,7 @@ const Solution = () => {
           {/* monthly-income img */}
           <div className="shadow-3xl relative max-w-sm rounded-3xl bg-slate-300 ">
             <Image
-              src="/fin_monthly_income.webp"
+              src="/ayo/fin_monthly_income.webp"
               // fill={true}
               alt="Finscious monthly income image"
               // priority={true}
@@ -394,7 +394,7 @@ const Solution = () => {
           {/* yearly-expense img */}
           <div className="shadow-3xl relative max-w-sm rounded-3xl bg-slate-300 ">
             <Image
-              src="/fin_yearly_expenses.webp"
+              src="/ayo/fin_yearly_expenses.webp"
               // fill={true}
               alt="Finscious yearly-expense image"
               // priority={true}
@@ -410,7 +410,7 @@ const Solution = () => {
           {/* weekly-expense img */}
           <div className="shadow-3xl relative max-w-sm rounded-3xl bg-slate-300 ">
             <Image
-              src="/fin_monthly_expenses.webp"
+              src="/ayo/fin_monthly_expenses.webp"
               // fill={true}
               alt="Finscious monthly-expense image"
               // priority={true}
@@ -439,7 +439,7 @@ const Solution = () => {
         {/*  summary screen img*/}
         <div className="shadow-3xl relative max-w-sm rounded-3xl bg-slate-300 ">
           <Image
-            src="/fin_summary.webp"
+            src="/ayo/fin_summary.webp"
             // fill={true}
             alt="Finscious summary screen image"
             // priority={true}
@@ -462,7 +462,7 @@ const Solution = () => {
           {/* img-1 */}
           <div className="shadow-3xl relative max-w-sm rounded-3xl bg-slate-300 ">
             <Image
-              src="/fin_acct.webp"
+              src="/ayo/fin_acct.webp"
               // fill={true}
               alt="Finscious account screen image"
               // priority={true}
@@ -478,7 +478,7 @@ const Solution = () => {
           {/* img-2 */}
           <div className="shadow-3xl relative max-w-sm rounded-3xl bg-slate-300 ">
             <Image
-              src="/fin_bio.webp"
+              src="/ayo/fin_bio.webp"
               // fill={true}
               alt="Finscious bio screen image"
               // priority={true}
@@ -504,7 +504,7 @@ const Solution = () => {
           {/* img-1 */}
           <div className="shadow-3xl relative max-w-sm rounded-3xl bg-slate-300 ">
             <Image
-              src="/fin_forgot_password.webp"
+              src="/ayo/fin_forgot_password.webp"
               // fill={true}
               alt="Finscious forgot password image"
               // priority={true}
@@ -520,7 +520,7 @@ const Solution = () => {
           {/* img-2 */}
           <div className="shadow-3xl relative max-w-sm rounded-3xl bg-slate-300 ">
             <Image
-              src="/fin_verify.webp"
+              src="/ayo/fin_verify.webp"
               // fill={true}
               alt="Finscious password verification image"
               // priority={true}
@@ -536,7 +536,7 @@ const Solution = () => {
           {/* img-3 */}
           <div className="shadow-3xl relative max-w-sm rounded-3xl bg-slate-300 ">
             <Image
-              src="/fin_reset_password.webp"
+              src="/ayo/fin_reset_password.webp"
               // fill={true}
               alt="Finscious reset password image"
               // priority={true}
@@ -552,7 +552,7 @@ const Solution = () => {
           {/* img-4 */}
           <div className="shadow-3xl relative max-w-sm rounded-3xl bg-slate-300 ">
             <Image
-              src="/fin_password_updated.webp"
+              src="/ayo/fin_password_updated.webp"
               // fill={true}
               alt="Finscious password updated image"
               // priority={true}

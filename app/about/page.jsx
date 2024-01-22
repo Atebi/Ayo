@@ -5,7 +5,7 @@ import Tool from "../components/Tool";
 export const metadata = {
   title: "About Ayo",
   description: "Ayo's goals, tools and more...",
-}
+};
 
 const AboutPage = () => {
   return (
@@ -30,28 +30,28 @@ const AboutPage = () => {
 
         {/* About me */}
 
-        <section className="w-full text-base text-neutral-950 lg:text-lg">
+        <section className="w-full text-base lg:text-lg">
           <h1 className="mb-8 text-3xl font-bold lg:text-4xl">About Me</h1>
-          <p className="mb-3">
+          <p className="mb-3 lg:mb-4">
             As a UI/UX designer and front-end developer, I am confident in my
             ability to craft effective solutions for complex systems. My unique
             edge in problem-solving and organization, which comes from my
             bachelor's degree in accounting, has helped me excel in my field.
           </p>
 
-          <p className="mb-3">
+          <p className="highlight mb-3 lg:mb-4">
             I chose UI/UX and front-end development as my career path because I
             am passionate about ideating and synthesizing research from multiple
             sources to create elegant designs.
           </p>
 
-          <p className="mb-3">
+          <p className="mb-3 lg:mb-4">
             My main career goal is to continue advancing my skills and gaining
             experience to become a fully-fledged product designer and senior
             front-end developer.
           </p>
 
-          <p className="mb-3">
+          <p className="highlight mb-3 lg:mb-4">
             I am committed to working collaboratively with you in delivering
             solutions to your specific needs. With my attention to detail and
             dedication to quality, you can trust me to create digital solutions
@@ -75,7 +75,7 @@ const AboutPage = () => {
               {/* Ideation & Research image */}
               <div className="relative w-full bg-slate-300">
                 <Image
-                  src="/ideate.webp"
+                  src="/ayo/ideate.webp"
                   alt="Ideation & Research image"
                   priority={true}
                   width={0}
@@ -104,7 +104,7 @@ const AboutPage = () => {
               {/* prototype image */}
               <div className="relative w-full bg-slate-300">
                 <Image
-                  src="/prototype.webp"
+                  src="/ayo/prototype.webp"
                   alt="prototype image"
                   priority={true}
                   width={0}
@@ -131,7 +131,7 @@ const AboutPage = () => {
               {/* frontend image */}
               <div className="relative w-full bg-slate-300">
                 <Image
-                  src="/frontend.webp"
+                  src="/ayo/frontend.webp"
                   alt="frontend image"
                   priority={true}
                   width={0}

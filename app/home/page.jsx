@@ -4,7 +4,7 @@ import HR from "../components/HR";
 
 export const metadata = {
   title: "Ayo's portfolio",
-  description: "A list of ayo's projects",
+  description: "Where Ayo's pixels meet perfection!",
 };
 
 const HomePage = () => {
@@ -44,7 +44,7 @@ const HomePage = () => {
               {/* finscious thumbnail image */}
               <div className="group relative w-full overflow-hidden bg-slate-300">
                 <Image
-                  src="/finscious_thumbnail.webp"
+                  src="/ayo/finscious_thumbnail.webp"
                   // fill={true}
                   alt="Finscious thumbnail image"
                   priority={true}
@@ -81,7 +81,7 @@ const HomePage = () => {
                 {/* appledger thumbnail image */}
                 <div className="group relative w-full overflow-hidden bg-slate-300">
                   <Image
-                    src="/appl_thumbnail.webp"
+                    src="/ayo/appl_thumbnail.webp"
                     // fill={true}
                     alt="Appledger thumbnail image"
                     priority={true}
@@ -121,7 +121,7 @@ const HomePage = () => {
                 {/* deci thumbnail image */}
                 <div className="group relative w-full overflow-hidden bg-slate-300">
                   <Image
-                    src="/deci_thumbnail.webp"
+                    src="/ayo/deci_thumbnail.webp"
                     // fill={true}
                     alt="Decibell thumbnail image"
                     priority={true}

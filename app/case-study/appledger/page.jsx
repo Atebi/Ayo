@@ -12,7 +12,7 @@ const AppledgerPage = () => {
         {/* appledger thumbnail image */}
         <div className="shadow-3xl relative w-full rounded-2xl border-2 border-neutral-300/60">
           <Image
-            src="/appl_thumbnail.webp"
+            src="/ayo/appl_thumbnail.webp"
             // fill={true}
             alt="Appledger thumbnail image"
             priority={true}

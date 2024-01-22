@@ -18,12 +18,17 @@ const ContactPage = () => {
 
           <div className="mt-4 flex gap-4 border border-neutral-950/25 px-4 py-4">
             <Link href="#" className="hover:opacity-70 active:opacity-100">
-              <Image src="email.svg" alt="email icon" width={32} height={32} />
+              <Image
+                src="/ayo/email.svg"
+                alt="email icon"
+                width={32}
+                height={32}
+              />
             </Link>
 
             <Link href="#" className="hover:opacity-70 active:opacity-100">
               <Image
-                src="linkedin.svg"
+                src="/ayo/linkedin.svg"
                 alt="linkedin logo"
                 width={32}
                 height={32}
@@ -53,11 +58,6 @@ const ContactPage = () => {
             <div className="mt-6 w-full">
               <Form />
             </div>
-
-            {/* Other Channels */}
-            {/* <div>
-              <h3>Other Channels</h3>
-            </div> */}
           </div>
         </section>
 

@@ -29,7 +29,7 @@ const Solution = () => {
         {/* moodboard Image */}
         <div className="relative mx-auto mb-10 block w-full max-w-4xl bg-slate-300 shadow-lg">
           <Image
-            src="/deci_moodboard.webp"
+            src="/ayo/deci_moodboard.webp"
             alt="Decibell moodboard"
             // placeholder="blur"
             priority={true}
@@ -65,7 +65,7 @@ const Solution = () => {
         {/* style guide img for ui design */}
         <div className="relative mx-auto mb-10 block w-full max-w-4xl bg-neutral-200/50 p-5 shadow-2xl md:p-10">
           <Image
-            src="/deci_style.webp"
+            src="/ayo/deci_style.webp"
             alt="Decibell style guide image"
             // placeholder="blur"
             // priority={true}
@@ -93,7 +93,7 @@ const Solution = () => {
         {/* img */}
         <div className="relative mx-auto mb-10 block w-full max-w-6xl bg-neutral-200/50 p-5 shadow-2xl md:p-10">
           <Image
-            src="/deci_hero.webp"
+            src="/ayo/deci_hero.webp"
             alt="Decibell hero image"
             // placeholder="blur"
             // priority={true}
@@ -121,7 +121,7 @@ const Solution = () => {
         {/* img */}
         <div className="relative mx-auto mb-10 block w-full max-w-6xl bg-neutral-200/50 p-5 shadow-2xl md:p-10">
           <Image
-            src="/deci_musicians.webp"
+            src="/ayo/deci_musicians.webp"
             alt="Decibell musicians image"
             // placeholder="blur"
             // priority={true}
@@ -145,7 +145,7 @@ const Solution = () => {
         {/* img */}
         <div className="relative mx-auto mb-10 block w-full max-w-4xl bg-neutral-200/50 p-5 shadow-2xl md:p-10">
           <Image
-            src="/deci_feature.webp"
+            src="/ayo/deci_feature.webp"
             alt="Decibell feature image"
             // placeholder="blur"
             // priority={true}
@@ -170,7 +170,7 @@ const Solution = () => {
         {/* img */}
         <div className="relative mx-auto mb-10 block w-full max-w-4xl bg-neutral-200/50 p-5 shadow-2xl md:p-10">
           <Image
-            src="/deci_works.webp"
+            src="/ayo/deci_works.webp"
             alt="Decibell how it works image"
             // placeholder="blur"
             // priority={true}
@@ -200,7 +200,7 @@ const Solution = () => {
         {/* img */}
         <div className="relative mx-auto mb-10 block w-full max-w-6xl bg-neutral-200/50 p-5 shadow-2xl md:p-10">
           <Image
-            src="/deci_testimonial.webp"
+            src="/ayo/deci_testimonial.webp"
             alt="Decibell testimonial image"
             // placeholder="blur"
             // priority={true}
@@ -221,7 +221,7 @@ const Solution = () => {
         {/* img */}
         <div className="relative mx-auto mb-10 block w-full max-w-4xl bg-neutral-200/50 p-5 shadow-2xl md:p-10">
           <Image
-            src="/deci_blog.webp"
+            src="/ayo/deci_blog.webp"
             alt="Decibell blog home image"
             // placeholder="blur"
             // priority={true}
@@ -242,7 +242,7 @@ const Solution = () => {
         {/* img */}
         <div className="relative mx-auto mb-10 block w-full max-w-4xl bg-neutral-200/50 p-5 shadow-2xl md:p-10">
           <Image
-            src="/deci_article.webp"
+            src="/ayo/deci_article.webp"
             alt="Decibell article image"
             // placeholder="blur"
             // priority={true}
@@ -295,7 +295,7 @@ const Solution = () => {
         {/* code img for decibell */}
         <div className="relative mx-auto mb-10 block w-full max-w-6xl bg-neutral-200/50 p-5 shadow-2xl md:p-10">
           <Image
-            src="/deci_code.webp"
+            src="/ayo/deci_code.webp"
             alt="Decibell VScode image"
             // placeholder="blur"
             // priority={true}

@@ -12,7 +12,7 @@ const FinsciousPage = () => {
         {/* finscious thumbnail image */}
         <div className="shadow-3xl relative w-full rounded-2xl border-2 border-neutral-300/60">
           <Image
-            src="/finscious_thumbnail.webp"
+            src="/ayo/finscious_thumbnail.webp"
             // fill={true}
             alt="Finscious thumbnail image"
             priority={true}

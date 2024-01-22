@@ -12,7 +12,7 @@ const DecibellPage = () => {
         {/* finscious thumbnail image */}
         <div className="shadow-3xl relative w-full rounded-2xl border-2 border-neutral-300/60">
           <Image
-            src="/deci_thumbnail.webp"
+            src="/ayo/deci_thumbnail.webp"
             // fill={true}
             alt="Decibell thumbnail image"
             priority={true}

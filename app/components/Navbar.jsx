@@ -9,7 +9,7 @@ const Navbar = () => {
       <a href="/home">
         <div className="flex items-center justify-center gap-1">
           <Image
-            src="/logo.svg"
+            src="/ayo/logo.svg"
             alt="site's logo"
             width={0}
             height={0}

@@ -96,7 +96,7 @@ const Solution = () => {
         {/* user flow img */}
         <div className="relative mx-auto mb-10 block w-full bg-neutral-200/50 p-5 opacity-60 shadow-2xl">
           <Image
-            src="/appl_flow.webp"
+            src="/ayo/appl_flow.webp"
             alt="Appledger user flow image"
             // placeholder="blur"
             // priority={true}
@@ -131,7 +131,7 @@ const Solution = () => {
         {/* style guide img for ui design */}
         <div className="relative mx-auto mb-10 block w-full bg-neutral-200/50 py-10">
           <Image
-            src="/appl_style.webp"
+            src="/ayo/appl_style.webp"
             alt="Appledger style guide image"
             // placeholder="blur"
             // priority={true}
@@ -164,7 +164,7 @@ const Solution = () => {
 
         {/*  login screen img*/}
         <Image
-          src="/appl_login.webp"
+          src="/ayo/appl_login.webp"
           // fill={true}
           alt="Appledger login screen image"
           // priority={true}
@@ -197,7 +197,7 @@ const Solution = () => {
 
         {/*  home screen img*/}
         <Image
-          src="/appl_home.webp"
+          src="/ayo/appl_home.webp"
           // fill={true}
           alt="Appledger home screen image"
           // priority={true}
@@ -229,7 +229,7 @@ const Solution = () => {
 
         {/*  new-entry screen img*/}
         <Image
-          src="/appl_create.webp"
+          src="/ayo/appl_create.webp"
           // fill={true}
           alt="Appledger new-entry screen image"
           // priority={true}
@@ -262,7 +262,7 @@ const Solution = () => {
 
         {/*  view screen img*/}
         <Image
-          src="/appl_view.webp"
+          src="/ayo/appl_view.webp"
           // fill={true}
           alt="Appledger view-entry screen image"
           // priority={true}
@@ -296,7 +296,7 @@ const Solution = () => {
         <div className="flex w-full flex-wrap justify-center gap-4 lg:gap-0 xl:w-fit">
           {/* light-theme img */}
           <Image
-            src="/appl_home.webp"
+            src="/ayo/appl_home.webp"
             // fill={true}
             alt="Appledger home screen image"
             // priority={true}
@@ -317,7 +317,7 @@ const Solution = () => {
 
           {/* dark-theme img */}
           <Image
-            src="/appl_homeDark.webp"
+            src="/ayo/appl_homeDark.webp"
             // fill={true}
             alt="Appledger home dark screen image"
             // priority={true}
@@ -368,7 +368,7 @@ const Solution = () => {
         {/* code img for decibell */}
         <div className="relative mx-auto mb-10 block w-full max-w-6xl bg-neutral-200/50 p-5 shadow-2xl md:p-10">
           <Image
-            src="/appl_code.webp"
+            src="/ayo/appl_code.webp"
             alt="Appledger VScode image"
             // placeholder="blur"
             // priority={true}
