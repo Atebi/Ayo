@@ -55,6 +55,8 @@ A better way to manage your apps.
 
 - Site - Visit the live site [here](https://appledger.vercel.app).
 
+- Github - Check out the repo [here](https://github.com/Atebi/appledger.git)
+
 ## Decibell
 
 <p align="center">
@@ -68,6 +70,8 @@ Instant collaboration between musicians.
 - Design - Check out the design [here](https://www.figma.com/proto/7ZeLieWJ9wg9txKCZY5NqI/Decibell?type=design&node-id=32-1120&t=1oku1wgVt64PB96v-0&scaling=min-zoom&starting-point-node-id=755%3A4065).
 
 - Site - Visit the live site [here](https://decibell.vercel.app).
+
+- Github - Check out the repo [here](https://github.com/Atebi/decibell.git)
 
 ## Tech Stack
 
