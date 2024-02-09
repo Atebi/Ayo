@@ -5,12 +5,12 @@ import Link from "next/link";
 
 const Solution = () => {
   return (
-    <div className="leading-normal">
+    <div className="leading-normal tracking-wider">
       <h2 className="text-center text-4xl font-bold lg:text-6xl">Solution</h2>
       <HR />
 
       {/* approach */}
-      <div className="my-28 max-w-xl">
+      <div className="mb-16 mt-28 max-w-xl xl:mb-28">
         <h3 className="mb-6 text-2xl font-medium lg:text-4xl">Approach</h3>
         <p>
           In crafting the UI interface for this project, I studied and drew
@@ -45,7 +45,7 @@ const Solution = () => {
       {/****/}
 
       {/* ui design */}
-      <div className="my-28 max-w-xl">
+      <div className="mb-16 mt-28 max-w-xl xl:mb-28">
         <h3 className="mb-6 text-2xl font-medium lg:text-4xl">UI Design</h3>
         <p>
           I developed a responsive design tailored to various screen sizes using
@@ -79,8 +79,8 @@ const Solution = () => {
       </div>
 
       {/* hero */}
-      <div className="mx-auto mt-40">
-        <div className="mx-auto mb-12 max-w-md text-center">
+      <div className="mx-auto mt-32 lg:mt-40">
+        <div className="mx-auto mb-9 max-w-md text-center lg:mb-12">
           <p className="mb-2 text-lg font-medium">Hero section</p>
           <p className="text-base">
             A hero section designed to{" "}
@@ -107,8 +107,8 @@ const Solution = () => {
       </div>
 
       {/* musicians */}
-      <div className="mx-auto mt-40">
-        <div className="mx-auto mb-12 max-w-md text-center">
+      <div className="mx-auto mt-32 lg:mt-40">
+        <div className="mx-auto mb-9 max-w-md text-center lg:mb-12">
           <p className="mb-2 text-lg font-medium">Musicians!</p>
           <p className="text-base">
             This section showcases the platform's three primary protagonists,{" "}
@@ -135,8 +135,8 @@ const Solution = () => {
       </div>
 
       {/* feature */}
-      <div className="mx-auto mt-40">
-        <div className="mx-auto mb-12 max-w-md text-center">
+      <div className="mx-auto mt-32 lg:mt-40">
+        <div className="mx-auto mb-9 max-w-md text-center lg:mb-12">
           <p className="mb-2 text-lg font-medium">Feature</p>
           <p className="highlight text-base">
             A feature section to highlight common "chat app" functionalities.
@@ -159,8 +159,8 @@ const Solution = () => {
       </div>
 
       {/* works */}
-      <div className="mx-auto mt-40">
-        <div className="mx-auto mb-12 max-w-md text-center">
+      <div className="mx-auto mt-32 lg:mt-40">
+        <div className="mx-auto mb-9 max-w-md text-center lg:mb-12">
           <p className="mb-2 text-lg font-medium">How it works</p>
           <p className="text-base">
             This section briefly breaks down how a user starts using the
@@ -184,8 +184,8 @@ const Solution = () => {
       </div>
 
       {/* testimonial */}
-      <div className="mx-auto mt-40">
-        <div className="mx-auto mb-12 max-w-md text-center">
+      <div className="mx-auto mt-32 lg:mt-40">
+        <div className="mx-auto mb-9 max-w-md text-center lg:mb-12">
           <p className="mb-2 text-lg font-medium">
             Testimonial and CTA(call-to-action) button
           </p>
@@ -214,8 +214,8 @@ const Solution = () => {
       </div>
 
       {/* blog */}
-      <div className="mx-auto mt-40">
-        <div className="mx-auto mb-12 max-w-md text-center">
+      <div className="mx-auto mt-32 lg:mt-40">
+        <div className="mx-auto mb-9 max-w-md text-center lg:mb-12">
           <p className="mb-2 text-lg font-medium">Blog home page</p>
         </div>
         {/* img */}
@@ -235,8 +235,8 @@ const Solution = () => {
       </div>
 
       {/* article */}
-      <div className="mx-auto mt-40">
-        <div className="mx-auto mb-12 max-w-md text-center">
+      <div className="mx-auto mt-32 lg:mt-40">
+        <div className="mx-auto mb-9 max-w-md text-center lg:mb-12">
           <p className="mb-2 text-lg font-medium">Blog article page</p>
         </div>
         {/* img */}
@@ -256,14 +256,17 @@ const Solution = () => {
       </div>
 
       {/* go to figma prototype */}
-      <Link href="#" className="mx-auto mt-16 block w-fit">
-        <Button text="PROTOTYPE" />
+      <Link
+        href="https://www.figma.com/proto/7ZeLieWJ9wg9txKCZY5NqI/Decibell?type=design&node-id=32-1120&t=1oku1wgVt64PB96v-0&scaling=min-zoom&starting-point-node-id=755%3A4065"
+        className="mx-auto mt-16 block w-fit lg:mt-24"
+      >
+        <Button text="FIGMA DESIGN" />
       </Link>
 
       {/**End of ui design category section**/}
 
       {/* Frontend Development */}
-      <div className="my-28 max-w-xl">
+      <div className="mb-12 mt-28 max-w-xl xl:mb-28">
         <h3 className="mb-6 text-2xl font-medium lg:text-4xl">
           Frontend Development
         </h3>
@@ -308,9 +311,14 @@ const Solution = () => {
         </div>
 
         {/* go to live site */}
-        <Link href="#" className="mx-auto mt-16 block w-fit">
-          <Button text="VISIT SITE" />
-        </Link>
+        <div className="mx-auto mt-16 flex w-fit flex-wrap gap-6 lg:mt-24">
+          <Link href="https://decibell.vercel.app">
+            <Button text="VISIT SITE" />
+          </Link>
+          <Link href="https://github.com/Atebi/decibell.git">
+            <Button text="GITHUB" />
+          </Link>
+        </div>
       </div>
     </div>
   );

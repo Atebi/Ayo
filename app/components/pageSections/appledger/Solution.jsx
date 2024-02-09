@@ -5,12 +5,12 @@ import Button from "../../Button";
 
 const Solution = () => {
   return (
-    <div className="leading-normal">
+    <div className="leading-normal tracking-wider">
       <h2 className="text-center text-4xl font-bold lg:text-6xl">Solution</h2>
       <HR />
 
       {/* persona */}
-      <div className="my-28 max-w-xl">
+      <div className="mb-12 mt-28 max-w-xl lg:mb-16 xl:mb-20">
         <h3 className="mb-6 text-2xl font-medium lg:text-4xl">Persona</h3>
         <p>
           In order to gain a more comprehensive understanding of the project's
@@ -21,8 +21,8 @@ const Solution = () => {
       </div>
 
       {/* persona pain points */}
-      <div className="mb-10 mt-28 flex flex-col items-start justify-between gap-6 lg:flex-row">
-        <h4 className="w-full text-xl font-medium lg:text-2xl">
+      <div className="highlight mb-10 flex flex-col items-start justify-between gap-6 lg:flex-row">
+        <h4 className="w-full text-xl font-medium lg:sticky lg:left-0 lg:top-24 lg:text-2xl">
           Persona pain points
         </h4>
 
@@ -31,7 +31,7 @@ const Solution = () => {
           {/* pain point 1 */}
           <div>
             <p className="mb-1 font-medium">A book just isn't safe</p>
-            <p className="highlight">
+            <p>
               Many individuals reported that a book lacks encryption and does
               not require a password to open it. As a result, they fear that if
               someone gains access to their book, they will have access to all
@@ -42,7 +42,7 @@ const Solution = () => {
           {/* pain point 2 */}
           <div>
             <p className="mb-1 font-medium">Everything gets scattered!</p>
-            <p className="highlight">
+            <p>
               Storing login credentials and app details in a book leads to a
               disorganized and inefficient system. It's difficult to locate
               specific details and maintain confidentiality.
@@ -52,7 +52,7 @@ const Solution = () => {
           {/* pain point 3 */}
           <div>
             <p className="mb-1 font-medium">It's hard to retrieve data</p>
-            <p className="highlight">
+            <p>
               Individuals often encounter challenges when attempting to retrieve
               their login credentials from a book. The process can be arduous
               and time-consuming, requiring users to sift through numerous pages
@@ -66,7 +66,7 @@ const Solution = () => {
           {/* pain point 4 */}
           <div>
             <p className="mb-1 font-medium">I can't remember the app name</p>
-            <p className="highlight">
+            <p>
               Forgetting the name of an app you've used before can be
               frustrating. In such cases, you may have to rely on your memory of
               the app's features and search for similar applications that offer
@@ -77,7 +77,7 @@ const Solution = () => {
       </div>
 
       {/* user flow */}
-      <div className="my-28 max-w-xl">
+      <div className="mb-16 mt-28 max-w-xl lg:mb-28">
         <h3 className="mb-6 text-2xl font-medium lg:text-4xl">User Flow</h3>
         <p>
           With the project objective in mind, I created an initial sketch of the
@@ -111,7 +111,7 @@ const Solution = () => {
       {/****/}
 
       {/* ui design */}
-      <div className="my-28 max-w-xl">
+      <div className="mb-16 mt-28 max-w-xl lg:mb-28">
         <h3 className="mb-6 text-2xl font-medium lg:text-4xl">UI Design</h3>
         <p>
           After determining the user journey, I proceeded to design the final
@@ -148,8 +148,8 @@ const Solution = () => {
       {/* features with images */}
 
       {/* feature-1 */}
-      <div className="mt-40 flex flex-wrap items-center justify-center gap-6 md:flex-row-reverse">
-        <div className="max-w-xs">
+      <div className="mt-28 flex flex-wrap items-center justify-center gap-8 md:flex-row-reverse lg:mt-40">
+        <div className="max-w-md text-center lg:max-w-sm lg:text-left">
           <p className="mb-2 text-lg font-medium">One-time master password</p>
           <p>
             To ensure the security of your data, the application prompts you to
@@ -185,8 +185,8 @@ const Solution = () => {
       </div>
 
       {/* feature-2 */}
-      <div className="mt-40 flex flex-wrap items-center justify-center gap-6">
-        <div className="max-w-xs">
+      <div className="mt-28 flex flex-wrap items-center justify-center gap-8 lg:mt-40">
+        <div className="max-w-md text-center lg:max-w-sm lg:text-left">
           <p className="mb-2 text-lg font-medium">Home screen</p>
           <p>
             Easily view, edit, and delete your entries on this page. The total
@@ -218,8 +218,8 @@ const Solution = () => {
       </div>
 
       {/* feature-3 */}
-      <div className="mt-40 flex flex-wrap items-center justify-center gap-6 md:flex-row-reverse">
-        <div className="max-w-xs">
+      <div className="mt-28 flex flex-wrap items-center justify-center gap-8 md:flex-row-reverse lg:mt-40">
+        <div className="max-w-md text-center lg:max-w-sm lg:text-left">
           <p className="mb-2 text-lg font-medium"> Create new entry screen</p>
           <p>
             Easily add new entries with the default template or remove and add
@@ -229,7 +229,7 @@ const Solution = () => {
 
         {/*  new-entry screen img*/}
         <Image
-          src="/ayo/appl_create.webp"
+          src="/ayo/appl_view.webp"
           // fill={true}
           alt="Appledger new-entry screen image"
           // priority={true}
@@ -250,8 +250,8 @@ const Solution = () => {
       </div>
 
       {/* feature-4 */}
-      <div className="mt-40 flex flex-wrap items-center justify-center gap-6">
-        <div className="max-w-xs">
+      <div className="mt-28 flex flex-wrap items-center justify-center gap-8 lg:mt-40">
+        <div className="max-w-md text-center lg:max-w-sm lg:text-left">
           <p className="mb-2 text-lg font-medium"> View entry screen</p>
           <p>
             You can view, edit, and delete application data on this screen.
@@ -283,8 +283,8 @@ const Solution = () => {
       </div>
 
       {/* feature-5 */}
-      <div className="mt-40 flex flex-wrap items-center justify-center gap-6 md:flex-row-reverse">
-        <div className="max-w-xs">
+      <div className="mt-28 flex flex-wrap items-center justify-center gap-8 md:flex-row-reverse lg:mt-40">
+        <div className="max-w-md text-center lg:max-w-sm xl:text-left">
           <p className="mb-2 text-lg font-medium"> Light and dark themes</p>
           <p>
             Users can choose between light and dark themes based on their
@@ -293,7 +293,7 @@ const Solution = () => {
         </div>
 
         {/*  twin images for light and dark theme*/}
-        <div className="flex w-full flex-wrap justify-center gap-4 lg:gap-0 xl:w-fit">
+        <div className="flex w-full flex-wrap justify-center gap-6 lg:gap-0 xl:w-fit">
           {/* light-theme img */}
           <Image
             src="/ayo/appl_home.webp"
@@ -339,13 +339,17 @@ const Solution = () => {
       </div>
 
       {/* go to figma prototype */}
-      <Link href="#" className="mx-auto mt-16 block w-fit">
+
+      <Link
+        href="https://www.figma.com/proto/E84xZikI87orYzxNaKlw7f/appLedger?type=design&node-id=34-441&t=3sgzyFApyqC663qq-0&scaling=scale-down&starting-point-node-id=384%3A304"
+        className="mx-auto mt-16 block w-fit lg:mt-24"
+      >
         <Button text="PROTOTYPE" />
       </Link>
       {/**End of ui design category section**/}
 
       {/* frontend dev */}
-      <div className="my-28 max-w-xl">
+      <div className="mb-16 mt-28 max-w-xl lg:mb-28">
         <h3 className="mb-6 text-2xl font-medium lg:text-4xl">
           Frontend Development
         </h3>
@@ -381,9 +385,14 @@ const Solution = () => {
         </div>
 
         {/* go to live site */}
-        <Link href="#" className="mx-auto mt-16 block w-fit">
-          <Button text="VISIT SITE" />
-        </Link>
+        <div className="mx-auto mt-16 flex w-fit flex-wrap gap-6 lg:mt-24">
+          <Link href="https://appledger.vercel.app">
+            <Button text="VISIT SITE" />
+          </Link>
+          <Link href="https://github.com/Atebi/appledger.git">
+            <Button text="GITHUB" />
+          </Link>
+        </div>
       </div>
     </div>
   );

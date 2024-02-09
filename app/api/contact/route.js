@@ -17,7 +17,14 @@ export async function POST(req, res) {
     subject: `JOB offer! From ${name}`,
     text: message,
     html: `<div>
-        <b>${message}</b> <br /><br /> from <e><b>${name}</b></e> <br /> ${email}
+    <hr />
+    <br /><br />
+        <b>${message}</b>
+         <br /><br /><br /><br />
+         <hr />
+          from <e><b>${name}</b></e>
+           <br /><br />
+            ${email}
       </div>`,
   };
 

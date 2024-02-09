@@ -2,27 +2,18 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import Button from "./Button";
 
 const Form = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [submitted, setSubmitted] = useState(false);
-  const router = useRouter();
+  // const router = useRouter();
 
   const showModal = submitted ? "visible" : "hidden";
 
   const handleSubmit = async (form, e) => {
-    // return false;
-    // e.preventDefault();
-    // e.preventDefault();
-    // if (name || email || message === "") {
-    //   console.log("Fill in the field");
-    //   // e.preventDefault;
-    //   return;
-    // }
-    // console.log("clicked on submit");
-    // e.preventDefault();
     console.log("Sending...");
 
     let data = {
@@ -31,7 +22,7 @@ const Form = () => {
       message,
     };
 
-    const res = await fetch("/api/contact", {
+    const res = await fetch("/ayo/api/contact", {
       method: "POST",
       headers: {
         accept: "application/json, text/plain, */*",
@@ -52,6 +43,10 @@ const Form = () => {
     }
   };
 
+  const toggleColour = (e) => {
+    e.target.classList.toggle("borderGradient");
+  };
+
   return (
     <>
       <div
@@ -69,7 +64,7 @@ const Form = () => {
             Name
           </label>
           <input
-            className="w-full appearance-none rounded border border-neutral-400/60 bg-transparent px-3 py-4 leading-tight text-neutral-700/90 placeholder:text-neutral-400/90 focus:border-neutral-500 focus:outline-none"
+            className={`w-full appearance-none border border-neutral-400/60 bg-transparent px-3 py-4 leading-tight text-neutral-700/90 placeholder:text-neutral-400/90 hover:border-neutral-400 focus:outline-none`}
             value={name}
             placeholder="Your name"
             autoComplete="on"
@@ -77,6 +72,8 @@ const Form = () => {
             type="text"
             onChange={(e) => setName(e.target.value)}
             required
+            onFocus={toggleColour}
+            onBlur={toggleColour}
           />
         </div>
 
@@ -88,7 +85,7 @@ const Form = () => {
             Email
           </label>
           <input
-            className="w-full appearance-none rounded border border-neutral-400/60 bg-transparent px-3 py-4 leading-tight text-neutral-700/90 placeholder:text-neutral-400/90 focus:border-neutral-500 focus:outline-none"
+            className={`w-full appearance-none border border-neutral-400/60 bg-transparent px-3 py-4 leading-tight text-neutral-700/90 placeholder:text-neutral-400/90 hover:border-neutral-400 focus:outline-none`}
             value={email}
             placeholder="Your email"
             autoComplete="on"
@@ -96,6 +93,8 @@ const Form = () => {
             type="email"
             required
             onChange={(e) => setEmail(e.target.value)}
+            onFocus={toggleColour}
+            onBlur={toggleColour}
           />
         </div>
 
@@ -107,7 +106,7 @@ const Form = () => {
             Message
           </label>
           <textarea
-            className="w-full appearance-none rounded border border-neutral-400/60 bg-transparent px-3 py-3 leading-tight text-neutral-700/90 placeholder:text-neutral-400/90 focus:border-neutral-500 focus:outline-none"
+            className={`w-full appearance-none border border-neutral-400/60 bg-transparent px-3 py-3 leading-tight text-neutral-700/90 placeholder:text-neutral-400/90 hover:border-neutral-400 focus:outline-none`}
             value={message}
             placeholder="Write your message here..."
             id="message"
@@ -116,10 +115,12 @@ const Form = () => {
             rows={4}
             required
             onChange={(e) => setMessage(e.target.value)}
+            onFocus={toggleColour}
+            onBlur={toggleColour}
           ></textarea>
         </div>
 
-        <div className="relative">
+        {/* <div className="relative">
           <div className="w-fit border-2 border-neutral-950 px-3 py-2 text-base text-opacity-0">
             Send email
           </div>
@@ -130,7 +131,8 @@ const Form = () => {
           >
             Send email
           </button>
-        </div>
+        </div> */}
+        <Button text="Send mail" mode="primary" />
       </form>
     </>
   );

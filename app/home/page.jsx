@@ -1,158 +1,151 @@
 import Link from "next/link";
 import Image from "next/image";
 import HR from "../components/HR";
-
-export const metadata = {
-  title: "Ayo's portfolio",
-  description: "Where Ayo's pixels meet perfection!",
-};
+import Navbar from "../components/Navbar";
 
 const HomePage = () => {
   return (
-    <div className="flex max-w-[1536px] flex-col items-center px-6 pt-28 md:flex-row md:items-start md:gap-6 lg:gap-12 lg:px-16 2xl:mx-auto">
-      <div className="max-w-xs text-center md:fixed md:min-h-screen md:max-w-[260px] md:text-left lg:max-w-xs">
-        {/* Hero */}
-        <section className="relative mb-7 grid place-items-center md:place-items-start">
-          <div className="h-48 w-full bg-slate-200"></div>
-          {/* <div className="absolute -bottom-2 h-14 w-32 bg-white text-center shadow-sm md:left-1/2 md:-translate-x-1/2">
-            contact
-          </div> */}
+    <>
+      <Navbar />
+
+      {/* Body */}
+      <div className="mt-32 max-w-[1536px] px-6 lg:mt-40 lg:px-24 xl:px-36">
+        {/* hero section */}
+        <section className="flex animate-fade flex-wrap justify-center gap-14 lg:items-center lg:justify-between lg:gap-0">
+          <h1 className="max-w-md text-xl font-semibold leading-9 tracking-wider lg:text-4xl lg:leading-normal xl:max-w-xl xl:text-5xl xl:leading-snug">
+            I'm Ayo, a creative developer. I bring your ideas to life through{" "}
+            <span className="bg-primary-gradient bg-clip-text text-transparent">
+              UI/UX design
+            </span>{" "}
+            and{" "}
+            <span className="bg-primary-gradient bg-clip-text text-transparent">
+              frontend development
+            </span>
+            .
+          </h1>
+          {/* hero img */}
+          <div className="relative rounded bg-primary-gradient p-[1px]">
+            <div className="rounded bg-white/40 px-2 py-4 duration-500 ease-in">
+              <Image
+                src="/ayo/atebi_home.webp"
+                alt="my image"
+                priority={true}
+                width={0}
+                height={0}
+                style={{
+                  width: "100%",
+                  height: "auto",
+                }}
+                sizes="100vw , (max-width: 896px) 45vw"
+                quality={100}
+                className="w-full max-w-[240px] rounded md:max-w-xs"
+              />
+            </div>
+
+            {/* background frames */}
+            <div className="absolute top-0 -z-10 h-full w-full rotate-6 rounded bg-primary-gradient p-[1px] duration-700 ease-in">
+              <div className="h-full w-full rounded bg-white/40"></div>
+            </div>
+            <div className="absolute top-0 -z-10 h-full w-full -rotate-6 rounded bg-primary-gradient p-[1px] duration-1000 ease-in">
+              <div className="h-full w-full rounded bg-white/40"></div>
+            </div>
+          </div>
         </section>
+        {/****/}
 
-        <h1 className="mb-5 text-4xl font-bold">Ayo Iyela</h1>
-        <p className="highlight mb-2 text-2xl">Creative Developer</p>
+        <HR />
 
-        <p className="highlight text-base">
-          I create functional and visually appealing digital products through
-          UI/UX design and frontend development.
-        </p>
-      </div>
-
-      {/*  */}
-      <div className="hidden h-full min-w-[320px] md:block md:min-w-[260px] lg:min-w-[320px]"></div>
-
-      {/* */}
-      <div className="w-full text-center">
-        {/* <HR /> */}
-        <hr className="my-16 border-t-[1px] border-neutral-300 md:hidden" />
-
-        {/* My Works */}
-        <section className="grid w-full gap-14 xl:gap-16">
+        {/* Projects */}
+        <section className="grid place-items-center gap-10 text-center md:gap-14 lg:gap-16">
           {/* Project-1 */}
-          <Link href="/case-study/finscious">
-            <div className="w-full">
+          <div className="w-full">
+            <Link href="/case-study/finscious">
               {/* finscious thumbnail image */}
               <div className="group relative w-full overflow-hidden bg-slate-300">
                 <Image
-                  src="/ayo/finscious_thumbnail.webp"
+                  src="/ayo/fin_thumb1.webp"
                   // fill={true}
                   alt="Finscious thumbnail image"
                   priority={true}
-                  // style={{ objectFit: "cover", borderRadius: "24px" }}
-                  // sizes="(max-width: 768px) 320px"
                   width={0}
                   height={0}
                   style={{
                     width: "100%",
                     height: "auto",
-                    // borderRadius: "16px",
                   }}
-                  // sizes="100vw"
                   sizes="100vw , (max-width: 896px) 75vw"
                   quality={100}
-                  className="duration-500 ease-in-out group-hover:scale-110"
+                  className="duration-500 ease-in-out group-hover:scale-105"
                 />
 
                 {/* background div */}
-                <div className="absolute left-0 top-0 h-full w-full bg-black opacity-0 transition-opacity duration-500 group-hover:opacity-20 group-active:opacity-0"></div>
+                <div className="absolute left-0 top-0 h-full w-full bg-black opacity-0 transition-opacity duration-500 group-hover:opacity-10 group-active:opacity-0"></div>
               </div>
-              <h3 className="mt-3 text-xl lg:mt-5 lg:text-lg">Finscious</h3>
-              <p className="highlight text-base">Mobile App Design</p>
-            </div>
-          </Link>
+            </Link>
+            {/* <h3 className="mt-3 text-xl lg:mt-5 lg:text-lg">Finscious</h3>
+            <p className="highlight text-base">Mobile App Design</p> */}
+          </div>
 
           {/* Project-2 */}
-          <Link
-            href="/case-study/appledger"
-            className="hover:opacity-90 active:opacity-100"
-          >
-            <div className="w-full">
-              <div className="w-full">
-                {/* appledger thumbnail image */}
-                <div className="group relative w-full overflow-hidden bg-slate-300">
-                  <Image
-                    src="/ayo/appl_thumbnail.webp"
-                    // fill={true}
-                    alt="Appledger thumbnail image"
-                    priority={true}
-                    // style={{ objectFit: "cover", borderRadius: "24px" }}
-                    // sizes="(max-width: 768px) 320px"
-                    width={0}
-                    height={0}
-                    style={{
-                      width: "100%",
-                      height: "auto",
-                      // borderRadius: "16px",
-                    }}
-                    // sizes="100vw"
-                    sizes="100vw , (max-width: 896px) 75vw"
-                    quality={100}
-                    className="duration-500 ease-in-out group-hover:scale-110"
-                  />
+          <div className="w-full">
+            <Link href="/case-study/appledger">
+              {/* appledger thumbnail image */}
+              <div className="group relative w-full overflow-hidden bg-slate-300">
+                <Image
+                  src="/ayo/appl_thumb1.webp"
+                  alt="Appledger thumbnail image"
+                  priority={true}
+                  width={0}
+                  height={0}
+                  style={{
+                    width: "100%",
+                    height: "auto",
+                  }}
+                  sizes="100vw , (max-width: 896px) 75vw"
+                  quality={100}
+                  className="duration-500 ease-in-out group-hover:scale-105"
+                />
 
-                  {/* background div */}
-                  <div className="absolute left-0 top-0 h-full w-full bg-black opacity-0 transition-opacity duration-500 group-hover:opacity-20 group-active:opacity-0"></div>
-                </div>
+                {/* background div */}
+                <div className="absolute left-0 top-0 h-full w-full bg-black opacity-0 transition-opacity duration-500 group-hover:opacity-10 group-active:opacity-0"></div>
               </div>
-              <h3 className="mt-3 text-xl lg:mt-5 lg:text-lg">Appledger</h3>
-              <p className="highlight text-base">
-                Design & Frontend Development
-              </p>
-            </div>
-          </Link>
+            </Link>
+            {/* <h3 className="mt-3 text-xl lg:mt-5 lg:text-lg">Appledger</h3>
+            <p className="highlight text-base">Design & Frontend Development</p> */}
+          </div>
 
           {/* Project-3 */}
-          <Link
-            href="/case-study/decibell"
-            className="hover:opacity-90 active:opacity-100"
-          >
-            <div className="w-full">
-              <div className="w-full">
-                {/* deci thumbnail image */}
-                <div className="group relative w-full overflow-hidden bg-slate-300">
-                  <Image
-                    src="/ayo/deci_thumbnail.webp"
-                    // fill={true}
-                    alt="Decibell thumbnail image"
-                    priority={true}
-                    // style={{ objectFit: "cover", borderRadius: "24px" }}
-                    // sizes="(max-width: 768px) 320px"
-                    width={0}
-                    height={0}
-                    style={{
-                      width: "100%",
-                      height: "auto",
-                      // borderRadius: "16px",
-                    }}
-                    // sizes="100vw"
-                    sizes="100vw , (max-width: 896px) 75vw"
-                    quality={100}
-                    className="duration-500 ease-in-out group-hover:scale-110"
-                  />
+          <div className="w-full">
+            <Link href="/case-study/decibell">
+              {/* deci thumbnail image */}
+              <div className="group relative w-full overflow-hidden bg-slate-300">
+                <Image
+                  src="/ayo/deci_thumb1.webp"
+                  alt="Decibell thumbnail image"
+                  priority={true}
+                  width={0}
+                  height={0}
+                  style={{
+                    width: "100%",
+                    height: "auto",
+                  }}
+                  sizes="100vw , (max-width: 896px) 75vw"
+                  quality={100}
+                  className="duration-500 ease-in-out group-hover:scale-105"
+                />
 
-                  {/* background div */}
-                  <div className="absolute left-0 top-0 h-full w-full bg-black opacity-0 transition-opacity duration-500 group-hover:opacity-20 group-active:opacity-0"></div>
-                </div>
+                {/* background div */}
+                <div className="absolute left-0 top-0 h-full w-full bg-black opacity-0 transition-opacity duration-500 group-hover:opacity-10 group-active:opacity-0"></div>
               </div>
-              <h3 className="mt-3 text-xl lg:mt-5 lg:text-lg">Decibell</h3>
-              <p className="highlight text-base">Landing Page with Blog</p>
-            </div>
-          </Link>
+            </Link>
+            {/* <h3 className="mt-3 text-xl lg:mt-5 lg:text-lg">Decibell</h3>
+            <p className="highlight text-base">Landing Page with Blog</p> */}
+          </div>
         </section>
-
-        <HR />
+        {/****/}
       </div>
-    </div>
+      <HR />
+    </>
   );
 };
 

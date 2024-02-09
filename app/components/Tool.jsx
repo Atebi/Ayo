@@ -3,7 +3,7 @@ import Image from "next/image";
 const Tool = ({ imageUrl, alt, label }) => {
   return (
     <div>
-      <div className="grid w-full place-items-center cursor-text border border-neutral-950/25 px-4 py-4">
+      <div className="grid w-full cursor-text place-items-center border border-black/20 px-4 py-4 lg:border-black/30">
         <Image
           src={`/ayo/${imageUrl}`}
           alt={alt}

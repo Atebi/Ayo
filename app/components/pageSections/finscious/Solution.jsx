@@ -5,12 +5,12 @@ import Button from "../../Button";
 
 const Solution = () => {
   return (
-    <div className="leading-normal">
+    <div className="leading-normal tracking-wider">
       <h2 className="text-center text-4xl font-bold lg:text-6xl">Solution</h2>
       <HR />
 
       {/* approach */}
-      <div className="my-28 max-w-xl">
+      <div className="mb-10 mt-28 max-w-xl lg:mb-28">
         <h3 className="mb-6 text-2xl font-medium lg:text-4xl">Approach</h3>
         <p>
           In my approach to defining the interface requirements for this
@@ -47,7 +47,7 @@ const Solution = () => {
       {/****/}
 
       {/* ui design */}
-      <div className="my-28 max-w-xl">
+      <div className="mb-10 mt-28 max-w-xl lg:mb-28">
         <h3 className="mb-6 text-2xl font-medium lg:text-4xl">UI Design</h3>
         <p>
           Once the usability issues were resolved, I proceeded to design the
@@ -84,7 +84,7 @@ const Solution = () => {
       </div>
 
       {/* Onboarding screens */}
-      <div className="mx-auto mt-40">
+      <div className="mx-auto mt-28 lg:mt-40">
         <div className="mx-auto mb-12 max-w-md text-center">
           <p className="mb-1 text-lg font-medium">Onboarding screens</p>
           <p className="highlight text-base">
@@ -147,7 +147,7 @@ const Solution = () => {
       </div>
 
       {/* Sign up/Login screens */}
-      <div className="mx-auto mt-40">
+      <div className="mx-auto mt-28 lg:mt-40">
         <div className="mx-auto mb-12 max-w-md">
           <p className="mb-1 text-center text-lg font-medium">
             Sign up/Login screens
@@ -201,8 +201,8 @@ const Solution = () => {
 
       {/* features with images */}
       {/* feature-1 */}
-      <div className="mt-40 flex flex-wrap items-center justify-center gap-6 md:flex-row-reverse">
-        <div className="max-w-xs">
+      <div className="mt-28 flex flex-wrap items-center justify-center gap-8 md:flex-row-reverse lg:mt-40">
+        <div className="max-w-md text-center lg:max-w-sm lg:text-left">
           <p className="mb-2 text-lg font-medium">Home screen</p>
           <p>
             The home screen shows the{" "}
@@ -234,8 +234,8 @@ const Solution = () => {
       </div>
 
       {/* feature-2 */}
-      <div className="mt-40 flex flex-wrap items-center justify-center gap-6">
-        <div className="max-w-xs">
+      <div className="mt-28 flex flex-wrap items-center justify-center gap-8 lg:mt-40">
+        <div className="max-w-md text-center xl:max-w-sm xl:text-left">
           <p className="mb-2 text-lg font-medium">Income and Expenses screen</p>
           <p>
             This screen provides a{" "}
@@ -250,7 +250,7 @@ const Solution = () => {
         </div>
 
         {/*  twin images for income and expenses*/}
-        <div className="flex flex-col items-center gap-2 md:flex-row">
+        <div className="flex flex-col items-center gap-6 md:flex-row md:gap-3">
           {/* income img */}
           <div className="shadow-3xl relative max-w-sm rounded-3xl bg-slate-300 ">
             <Image
@@ -287,8 +287,8 @@ const Solution = () => {
       </div>
 
       {/* feature-3 */}
-      <div className="mt-40 flex flex-wrap items-center justify-center gap-6 md:flex-row-reverse">
-        <div className="max-w-xs">
+      <div className="mt-28 flex flex-wrap items-center justify-center gap-8 md:flex-row-reverse lg:mt-40">
+        <div className="max-w-md text-center xl:max-w-sm xl:text-left">
           <p className="mb-2 text-lg font-medium">Add income/expense screen</p>
           <p>
             This page enables the{" "}
@@ -299,7 +299,7 @@ const Solution = () => {
         </div>
 
         {/*  twin images for add-income and add-expenses*/}
-        <div className="flex flex-col gap-2 md:flex-row">
+        <div className="flex flex-col gap-6 md:flex-row md:gap-3">
           {/* add-income img */}
           <div className="shadow-3xl relative max-w-sm rounded-3xl bg-slate-300 ">
             <Image
@@ -336,8 +336,9 @@ const Solution = () => {
       </div>
 
       {/* feature-4 */}
-      <div className="mt-40 flex h-fit flex-col flex-wrap items-center justify-center gap-6 lg:flex-row lg:items-start">
-        <div className="h-fit max-w-xs md:sticky md:left-0 md:top-24">
+      <div className="mt-28 flex h-fit flex-col flex-wrap items-center justify-center gap-8 lg:mt-40 lg:flex-row lg:items-start">
+        {/* max-w-md text-center lg:max-w-sm lg:text-left */}
+        <div className="h-fit max-w-md text-center xl:sticky xl:left-0 xl:top-24 xl:max-w-sm xl:text-left">
           <p className="mb-2 text-lg font-medium">Analysis screen</p>
           <p>
             This screen shows{" "}
@@ -358,9 +359,9 @@ const Solution = () => {
         </div>
 
         {/* images for analysis screen*/}
-        <div className="grid grid-cols-1 place-items-center gap-2 md:grid-cols-2">
+        <div className="grid grid-cols-1 place-items-center gap-12 md:grid-cols-2">
           {/* yearly-income img */}
-          <div className="shadow-3xl relative max-w-sm rounded-3xl bg-slate-300 ">
+          <div className="shadow-3xl relative max-w-xs rounded-3xl bg-slate-300 ">
             <Image
               src="/ayo/fin_yearly_income.webp"
               // fill={true}
@@ -376,7 +377,7 @@ const Solution = () => {
             />
           </div>
           {/* monthly-income img */}
-          <div className="shadow-3xl relative max-w-sm rounded-3xl bg-slate-300 ">
+          <div className="shadow-3xl relative max-w-xs rounded-3xl bg-slate-300 ">
             <Image
               src="/ayo/fin_monthly_income.webp"
               // fill={true}
@@ -392,7 +393,7 @@ const Solution = () => {
             />
           </div>
           {/* yearly-expense img */}
-          <div className="shadow-3xl relative max-w-sm rounded-3xl bg-slate-300 ">
+          <div className="shadow-3xl relative max-w-xs rounded-3xl bg-slate-300 ">
             <Image
               src="/ayo/fin_yearly_expenses.webp"
               // fill={true}
@@ -408,7 +409,7 @@ const Solution = () => {
             />
           </div>
           {/* weekly-expense img */}
-          <div className="shadow-3xl relative max-w-sm rounded-3xl bg-slate-300 ">
+          <div className="shadow-3xl relative max-w-xs rounded-3xl bg-slate-300 ">
             <Image
               src="/ayo/fin_monthly_expenses.webp"
               // fill={true}
@@ -427,8 +428,8 @@ const Solution = () => {
       </div>
 
       {/* feature-5 */}
-      <div className="mt-40 flex flex-wrap items-center justify-center gap-6 md:flex-row-reverse">
-        <div className="max-w-xs">
+      <div className="mt-28 flex flex-wrap items-center justify-center gap-8 md:flex-row-reverse lg:mt-40">
+        <div className="max-w-md text-center lg:max-w-sm lg:text-left">
           <p className="mb-2 text-lg font-medium">Summary screen</p>
           <p className="highlight">
             This screen provides a textual summary of your current financial
@@ -455,7 +456,7 @@ const Solution = () => {
       </div>
 
       {/* feature-6 */}
-      <div className="mx-auto mt-40">
+      <div className="mx-auto mt-28 lg:mt-40">
         <p className="mb-6 text-center text-lg font-medium">Profile screen</p>
         {/*  profile screen img*/}
         <div className="mx-auto grid max-w-2xl grid-cols-1 place-items-center gap-12 md:grid-cols-2">
@@ -495,12 +496,12 @@ const Solution = () => {
       </div>
 
       {/* feature-7 */}
-      <div className="mx-auto mt-40">
+      <div className="mx-auto mt-28 lg:mt-40">
         <p className="mb-6 text-center text-lg font-medium">
           Forgot/Reset password screens
         </p>
         {/* images */}
-        <div className="mx-auto grid w-full grid-cols-1 place-items-center gap-6 px-6 md:grid-cols-2 md:px-10 xl:grid-cols-4">
+        <div className="mx-auto grid w-full grid-cols-1 place-items-center gap-12 px-6 md:grid-cols-2 md:px-10 xl:grid-cols-4">
           {/* img-1 */}
           <div className="shadow-3xl relative max-w-sm rounded-3xl bg-slate-300 ">
             <Image
@@ -570,9 +571,8 @@ const Solution = () => {
       {/**End of ui design category section**/}
 
       {/* go to figma prototype */}
-      <Link href="#" className="mx-auto my-20 block w-fit">
-        <Button text="PROTOTYPE" />
-      </Link>
+      <Link href="https://www.figma.com/proto/jtXxpkLUjnEm4vUfb6tGlT/Finscious?type=design&node-id=401-3374&t=gtBCilzw7j8sKouF-0&scaling=scale-down&starting-point-node-id=529%3A3026" className="mx-auto my-20 block w-fit"><Button text="PROTOTYPE" /></Link>
+      
     </div>
   );
 };
