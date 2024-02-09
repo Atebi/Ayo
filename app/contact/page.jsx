@@ -47,8 +47,9 @@ const ContactPage = () => {
               </Link>
 
               <Link
-                href="www.linkedin.com/in/ayomide-iyela-b173802b0"
+                href="https://www.linkedin.com/in/ayomide-iyela-b173802b0"
                 className="hover:opacity-50 active:opacity-100"
+                target="_blank"
               >
                 <Image
                   src="/ayo/linkedin.svg"

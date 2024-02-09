@@ -17,7 +17,7 @@ const Navbar = ({ mode = "default" }) => {
             alt="site's logo"
             width={32}
             height={32}
-            // style={{ width: "100%", height: "auto" }}
+            style={{ height: "auto" }}
             priority={true}
           />
 

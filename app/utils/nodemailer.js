@@ -1,4 +1,5 @@
 import nodemailer from "nodemailer";
+import { resolve } from "styled-jsx/css";
 
 require("dotenv").config();
 const SENDER = process.env.sender;
@@ -12,6 +13,18 @@ const Transporter = nodemailer.createTransport({
     pass: PASSWORD,
   },
   secure: true,
+});
+
+await new Promise((resolve, reject) => {
+  Transporter.verify(function (error, success) {
+    if (error) {
+      console.log(error);
+      reject(error);
+    } else {
+      console.log("Server is ready to take our messages");
+      resolve(success);
+    }
+  });
 });
 
 export default Transporter;

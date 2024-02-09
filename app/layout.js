@@ -9,7 +9,7 @@ const poppins = Roboto({
 });
 
 export const metadata = {
-  title: "Ayomide Iyela UI/UX designer and front-end developer",
+  title: "Ayomide Iyela - UI/UX designer and front-end developer",
   description: "A portfolio where Ayo's pixels, meet perfection!",
 };
 

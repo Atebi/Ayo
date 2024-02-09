@@ -24,7 +24,7 @@ const Footer = () => {
           alt="site's logo"
           width={16}
           height={16}
-          // style={{ width: "100%", height: "auto" }}
+          style={{ height: "auto" }}
           priority={true}
           className="self-start"
         />
