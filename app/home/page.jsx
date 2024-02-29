@@ -11,7 +11,7 @@ const HomePage = () => {
       {/* Body */}
       <div className="mt-32 max-w-[1536px] px-6 lg:mt-40 lg:px-24 xl:px-36">
         {/* hero section */}
-        <section className="flex flex-wrap justify-center gap-14 lg:items-center lg:justify-between lg:gap-0">
+        <section className="flex flex-wrap justify-center gap-14 overflow-hidden lg:items-center lg:justify-between lg:gap-0">
           <h1
             data-aos="fade-up"
             className="max-w-md text-xl font-semibold leading-9 tracking-wider lg:text-4xl lg:leading-normal xl:max-w-xl xl:text-5xl xl:leading-snug"
