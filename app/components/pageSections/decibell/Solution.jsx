@@ -6,11 +6,16 @@ import Link from "next/link";
 const Solution = () => {
   return (
     <div className="leading-normal tracking-wider">
-      <h2 className="text-center text-4xl font-bold lg:text-6xl">Solution</h2>
+      <h2
+        data-aos="fade-up"
+        className="text-center text-4xl font-bold lg:text-6xl"
+      >
+        Solution
+      </h2>
       <HR />
 
       {/* approach */}
-      <div className="mb-16 mt-28 max-w-xl xl:mb-28">
+      <div data-aos="fade-up" className="mb-16 mt-28 max-w-xl xl:mb-28">
         <h3 className="mb-6 text-2xl font-medium lg:text-4xl">Approach</h3>
         <p>
           In crafting the UI interface for this project, I studied and drew
@@ -27,7 +32,10 @@ const Solution = () => {
           moodboard created in Figma
         </i>
         {/* moodboard Image */}
-        <div className="relative mx-auto mb-10 block w-full max-w-4xl bg-slate-300 shadow-lg">
+        <div
+          data-aos="fade-up"
+          className="relative mx-auto mb-10 block w-full max-w-4xl bg-slate-300 shadow-lg"
+        >
           <Image
             src="/ayo/deci_moodboard.webp"
             alt="Decibell moodboard"
@@ -45,7 +53,7 @@ const Solution = () => {
       {/****/}
 
       {/* ui design */}
-      <div className="mb-16 mt-28 max-w-xl xl:mb-28">
+      <div data-aos="fade-up" className="mb-16 mt-28 max-w-xl xl:mb-28">
         <h3 className="mb-6 text-2xl font-medium lg:text-4xl">UI Design</h3>
         <p>
           I developed a responsive design tailored to various screen sizes using
@@ -63,7 +71,10 @@ const Solution = () => {
           Style guide created in Figma
         </i>
         {/* style guide img for ui design */}
-        <div className="relative mx-auto mb-10 block w-full max-w-4xl bg-neutral-200/50 p-5 shadow-2xl md:p-10">
+        <div
+          data-aos="fade-up"
+          className="relative mx-auto mb-10 block w-full max-w-4xl bg-neutral-200/50 p-5 shadow-2xl md:p-10"
+        >
           <Image
             src="/ayo/deci_style.webp"
             alt="Decibell style guide image"
@@ -79,7 +90,7 @@ const Solution = () => {
       </div>
 
       {/* hero */}
-      <div className="mx-auto mt-32 lg:mt-40">
+      <div data-aos="fade-up" className="mx-auto mt-32 lg:mt-40">
         <div className="mx-auto mb-9 max-w-md text-center lg:mb-12">
           <p className="mb-2 text-lg font-medium">Hero section</p>
           <p className="text-base">
@@ -91,7 +102,10 @@ const Solution = () => {
           </p>
         </div>
         {/* img */}
-        <div className="relative mx-auto mb-10 block w-full max-w-6xl bg-neutral-200/50 p-5 shadow-2xl md:p-10">
+        <div
+          data-aos="fade-up"
+          className="relative mx-auto mb-10 block w-full max-w-6xl bg-neutral-200/50 p-5 shadow-2xl md:p-10"
+        >
           <Image
             src="/ayo/deci_hero.webp"
             alt="Decibell hero image"
@@ -107,7 +121,7 @@ const Solution = () => {
       </div>
 
       {/* musicians */}
-      <div className="mx-auto mt-32 lg:mt-40">
+      <div data-aos="fade-up" className="mx-auto mt-32 lg:mt-40">
         <div className="mx-auto mb-9 max-w-md text-center lg:mb-12">
           <p className="mb-2 text-lg font-medium">Musicians!</p>
           <p className="text-base">
@@ -119,7 +133,10 @@ const Solution = () => {
           </p>
         </div>
         {/* img */}
-        <div className="relative mx-auto mb-10 block w-full max-w-6xl bg-neutral-200/50 p-5 shadow-2xl md:p-10">
+        <div
+          data-aos="fade-up"
+          className="relative mx-auto mb-10 block w-full max-w-6xl bg-neutral-200/50 p-5 shadow-2xl md:p-10"
+        >
           <Image
             src="/ayo/deci_musicians.webp"
             alt="Decibell musicians image"
@@ -135,7 +152,7 @@ const Solution = () => {
       </div>
 
       {/* feature */}
-      <div className="mx-auto mt-32 lg:mt-40">
+      <div data-aos="fade-up" className="mx-auto mt-32 lg:mt-40">
         <div className="mx-auto mb-9 max-w-md text-center lg:mb-12">
           <p className="mb-2 text-lg font-medium">Feature</p>
           <p className="highlight text-base">
@@ -143,7 +160,10 @@ const Solution = () => {
           </p>
         </div>
         {/* img */}
-        <div className="relative mx-auto mb-10 block w-full max-w-4xl bg-neutral-200/50 p-5 shadow-2xl md:p-10">
+        <div
+          data-aos="fade-up"
+          className="relative mx-auto mb-10 block w-full max-w-4xl bg-neutral-200/50 p-5 shadow-2xl md:p-10"
+        >
           <Image
             src="/ayo/deci_feature.webp"
             alt="Decibell feature image"
@@ -159,7 +179,7 @@ const Solution = () => {
       </div>
 
       {/* works */}
-      <div className="mx-auto mt-32 lg:mt-40">
+      <div data-aos="fade-up" className="mx-auto mt-32 lg:mt-40">
         <div className="mx-auto mb-9 max-w-md text-center lg:mb-12">
           <p className="mb-2 text-lg font-medium">How it works</p>
           <p className="text-base">
@@ -168,7 +188,10 @@ const Solution = () => {
           </p>
         </div>
         {/* img */}
-        <div className="relative mx-auto mb-10 block w-full max-w-4xl bg-neutral-200/50 p-5 shadow-2xl md:p-10">
+        <div
+          data-aos="fade-up"
+          className="relative mx-auto mb-10 block w-full max-w-4xl bg-neutral-200/50 p-5 shadow-2xl md:p-10"
+        >
           <Image
             src="/ayo/deci_works.webp"
             alt="Decibell how it works image"
@@ -184,7 +207,7 @@ const Solution = () => {
       </div>
 
       {/* testimonial */}
-      <div className="mx-auto mt-32 lg:mt-40">
+      <div data-aos="fade-up" className="mx-auto mt-32 lg:mt-40">
         <div className="mx-auto mb-9 max-w-md text-center lg:mb-12">
           <p className="mb-2 text-lg font-medium">
             Testimonial and CTA(call-to-action) button
@@ -198,7 +221,10 @@ const Solution = () => {
           </p>
         </div>
         {/* img */}
-        <div className="relative mx-auto mb-10 block w-full max-w-6xl bg-neutral-200/50 p-5 shadow-2xl md:p-10">
+        <div
+          data-aos="fade-up"
+          className="relative mx-auto mb-10 block w-full max-w-6xl bg-neutral-200/50 p-5 shadow-2xl md:p-10"
+        >
           <Image
             src="/ayo/deci_testimonial.webp"
             alt="Decibell testimonial image"
@@ -214,12 +240,15 @@ const Solution = () => {
       </div>
 
       {/* blog */}
-      <div className="mx-auto mt-32 lg:mt-40">
+      <div data-aos="fade-up" className="mx-auto mt-32 lg:mt-40">
         <div className="mx-auto mb-9 max-w-md text-center lg:mb-12">
           <p className="mb-2 text-lg font-medium">Blog home page</p>
         </div>
         {/* img */}
-        <div className="relative mx-auto mb-10 block w-full max-w-4xl bg-neutral-200/50 p-5 shadow-2xl md:p-10">
+        <div
+          data-aos="fade-up"
+          className="relative mx-auto mb-10 block w-full max-w-4xl bg-neutral-200/50 p-5 shadow-2xl md:p-10"
+        >
           <Image
             src="/ayo/deci_blog.webp"
             alt="Decibell blog home image"
@@ -235,12 +264,15 @@ const Solution = () => {
       </div>
 
       {/* article */}
-      <div className="mx-auto mt-32 lg:mt-40">
+      <div data-aos="fade-up" className="mx-auto mt-32 lg:mt-40">
         <div className="mx-auto mb-9 max-w-md text-center lg:mb-12">
           <p className="mb-2 text-lg font-medium">Blog article page</p>
         </div>
         {/* img */}
-        <div className="relative mx-auto mb-10 block w-full max-w-4xl bg-neutral-200/50 p-5 shadow-2xl md:p-10">
+        <div
+          data-aos="fade-up"
+          className="relative mx-auto mb-10 block w-full max-w-4xl bg-neutral-200/50 p-5 shadow-2xl md:p-10"
+        >
           <Image
             src="/ayo/deci_article.webp"
             alt="Decibell article image"
@@ -257,6 +289,7 @@ const Solution = () => {
 
       {/* go to figma prototype */}
       <Link
+        data-aos="fade-up"
         href="https://www.figma.com/proto/7ZeLieWJ9wg9txKCZY5NqI/Decibell?type=design&node-id=32-1120&t=1oku1wgVt64PB96v-0&scaling=min-zoom&starting-point-node-id=755%3A4065"
         className="mx-auto mt-16 block w-fit lg:mt-24"
       >
@@ -266,7 +299,7 @@ const Solution = () => {
       {/**End of ui design category section**/}
 
       {/* Frontend Development */}
-      <div className="mb-12 mt-28 max-w-xl xl:mb-28">
+      <div data-aos="fade-up" className="mb-12 mt-28 max-w-xl xl:mb-28">
         <h3 className="mb-6 text-2xl font-medium lg:text-4xl">
           Frontend Development
         </h3>
@@ -296,7 +329,10 @@ const Solution = () => {
           Code file with Nextjs(13) structure
         </i>
         {/* code img for decibell */}
-        <div className="relative mx-auto mb-10 block w-full max-w-6xl bg-neutral-200/50 p-5 shadow-2xl md:p-10">
+        <div
+          data-aos="fade-up"
+          className="relative mx-auto mb-10 block w-full max-w-6xl bg-neutral-200/50 p-5 shadow-2xl md:p-10"
+        >
           <Image
             src="/ayo/deci_code.webp"
             alt="Decibell VScode image"
@@ -311,7 +347,10 @@ const Solution = () => {
         </div>
 
         {/* go to live site */}
-        <div className="mx-auto mt-16 flex w-fit flex-wrap gap-6 lg:mt-24">
+        <div
+          data-aos="fade-up"
+          className="mx-auto mt-16 flex w-fit flex-wrap gap-6 lg:mt-24"
+        >
           <Link href="https://decibell.vercel.app">
             <Button text="VISIT SITE" />
           </Link>

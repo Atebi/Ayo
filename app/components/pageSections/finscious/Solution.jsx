@@ -5,12 +5,12 @@ import Button from "../../Button";
 
 const Solution = () => {
   return (
-    <div className="leading-normal tracking-wider">
+    <div data-aos="fade-up" className="leading-normal tracking-wider">
       <h2 className="text-center text-4xl font-bold lg:text-6xl">Solution</h2>
       <HR />
 
       {/* approach */}
-      <div className="mb-10 mt-28 max-w-xl lg:mb-28">
+      <div data-aos="fade-up" className="mb-10 mt-28 max-w-xl lg:mb-28">
         <h3 className="mb-6 text-2xl font-medium lg:text-4xl">Approach</h3>
         <p>
           In my approach to defining the interface requirements for this
@@ -24,7 +24,7 @@ const Solution = () => {
         </p>
       </div>
 
-      <div>
+      <div data-aos="fade-up">
         <i className="highlight mb-4 block text-center text-sm">
           moodboard created in Figma
         </i>
@@ -47,7 +47,7 @@ const Solution = () => {
       {/****/}
 
       {/* ui design */}
-      <div className="mb-10 mt-28 max-w-xl lg:mb-28">
+      <div data-aos="fade-up" className="mb-10 mt-28 max-w-xl lg:mb-28">
         <h3 className="mb-6 text-2xl font-medium lg:text-4xl">UI Design</h3>
         <p>
           Once the usability issues were resolved, I proceeded to design the
@@ -68,7 +68,10 @@ const Solution = () => {
           Style guide created in Figma
         </i>
         {/* style guide img for ui design fin_style */}
-        <div className="relative mx-auto mb-10 block w-full bg-neutral-200/50 py-10">
+        <div
+          data-aos="fade-up"
+          className="relative mx-auto mb-10 block w-full bg-neutral-200/50 py-10"
+        >
           <Image
             src="/ayo/fin_style.webp"
             alt="Finscious style guide image"
@@ -84,7 +87,7 @@ const Solution = () => {
       </div>
 
       {/* Onboarding screens */}
-      <div className="mx-auto mt-28 lg:mt-40">
+      <div data-aos="fade-up" className="mx-auto mt-28 lg:mt-40">
         <div className="mx-auto mb-12 max-w-md text-center">
           <p className="mb-1 text-lg font-medium">Onboarding screens</p>
           <p className="highlight text-base">
@@ -147,7 +150,7 @@ const Solution = () => {
       </div>
 
       {/* Sign up/Login screens */}
-      <div className="mx-auto mt-28 lg:mt-40">
+      <div data-aos="fade-up" className="mx-auto mt-28 lg:mt-40">
         <div className="mx-auto mb-12 max-w-md">
           <p className="mb-1 text-center text-lg font-medium">
             Sign up/Login screens
@@ -201,7 +204,10 @@ const Solution = () => {
 
       {/* features with images */}
       {/* feature-1 */}
-      <div className="mt-28 flex flex-wrap items-center justify-center gap-8 md:flex-row-reverse lg:mt-40">
+      <div
+        data-aos="fade-up"
+        className="mt-28 flex flex-wrap items-center justify-center gap-8 md:flex-row-reverse lg:mt-40"
+      >
         <div className="max-w-md text-center lg:max-w-sm lg:text-left">
           <p className="mb-2 text-lg font-medium">Home screen</p>
           <p>
@@ -234,7 +240,10 @@ const Solution = () => {
       </div>
 
       {/* feature-2 */}
-      <div className="mt-28 flex flex-wrap items-center justify-center gap-8 lg:mt-40">
+      <div
+        data-aos="fade-up"
+        className="mt-28 flex flex-wrap items-center justify-center gap-8 lg:mt-40"
+      >
         <div className="max-w-md text-center xl:max-w-sm xl:text-left">
           <p className="mb-2 text-lg font-medium">Income and Expenses screen</p>
           <p>
@@ -287,7 +296,10 @@ const Solution = () => {
       </div>
 
       {/* feature-3 */}
-      <div className="mt-28 flex flex-wrap items-center justify-center gap-8 md:flex-row-reverse lg:mt-40">
+      <div
+        data-aos="fade-up"
+        className="mt-28 flex flex-wrap items-center justify-center gap-8 md:flex-row-reverse lg:mt-40"
+      >
         <div className="max-w-md text-center xl:max-w-sm xl:text-left">
           <p className="mb-2 text-lg font-medium">Add income/expense screen</p>
           <p>
@@ -336,7 +348,10 @@ const Solution = () => {
       </div>
 
       {/* feature-4 */}
-      <div className="mt-28 flex h-fit flex-col flex-wrap items-center justify-center gap-8 lg:mt-40 lg:flex-row lg:items-start">
+      <div
+        data-aos="fade-up"
+        className="mt-28 flex h-fit flex-col flex-wrap items-center justify-center gap-8 lg:mt-40 lg:flex-row lg:items-start"
+      >
         {/* max-w-md text-center lg:max-w-sm lg:text-left */}
         <div className="h-fit max-w-md text-center xl:sticky xl:left-0 xl:top-24 xl:max-w-sm xl:text-left">
           <p className="mb-2 text-lg font-medium">Analysis screen</p>
@@ -428,7 +443,10 @@ const Solution = () => {
       </div>
 
       {/* feature-5 */}
-      <div className="mt-28 flex flex-wrap items-center justify-center gap-8 md:flex-row-reverse lg:mt-40">
+      <div
+        data-aos="fade-up"
+        className="mt-28 flex flex-wrap items-center justify-center gap-8 md:flex-row-reverse lg:mt-40"
+      >
         <div className="max-w-md text-center lg:max-w-sm lg:text-left">
           <p className="mb-2 text-lg font-medium">Summary screen</p>
           <p className="highlight">
@@ -456,7 +474,7 @@ const Solution = () => {
       </div>
 
       {/* feature-6 */}
-      <div className="mx-auto mt-28 lg:mt-40">
+      <div data-aos="fade-up" className="mx-auto mt-28 lg:mt-40">
         <p className="mb-6 text-center text-lg font-medium">Profile screen</p>
         {/*  profile screen img*/}
         <div className="mx-auto grid max-w-2xl grid-cols-1 place-items-center gap-12 md:grid-cols-2">
@@ -496,7 +514,7 @@ const Solution = () => {
       </div>
 
       {/* feature-7 */}
-      <div className="mx-auto mt-28 lg:mt-40">
+      <div data-aos="fade-up" className="mx-auto mt-28 lg:mt-40">
         <p className="mb-6 text-center text-lg font-medium">
           Forgot/Reset password screens
         </p>
@@ -571,8 +589,13 @@ const Solution = () => {
       {/**End of ui design category section**/}
 
       {/* go to figma prototype */}
-      <Link href="https://www.figma.com/proto/jtXxpkLUjnEm4vUfb6tGlT/Finscious?type=design&node-id=401-3374&t=gtBCilzw7j8sKouF-0&scaling=scale-down&starting-point-node-id=529%3A3026" className="mx-auto my-20 block w-fit"><Button text="PROTOTYPE" /></Link>
-      
+      <Link
+        data-aos="fade-up"
+        href="https://www.figma.com/proto/jtXxpkLUjnEm4vUfb6tGlT/Finscious?type=design&node-id=401-3374&t=gtBCilzw7j8sKouF-0&scaling=scale-down&starting-point-node-id=529%3A3026"
+        className="mx-auto my-20 block w-fit"
+      >
+        <Button text="PROTOTYPE" />
+      </Link>
     </div>
   );
 };

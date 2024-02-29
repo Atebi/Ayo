@@ -13,12 +13,27 @@ const Button = ({ mode = "secondary", text }) => {
         {text}
       </button>
     </div>
+  ) : mode === "secondary" ? (
+    <button className="borderGradient inline-flex items-center gap-1 border px-3 py-2 text-base hover:opacity-50 active:opacity-100">
+      <span className="bg-primary-gradient bg-clip-text text-transparent">
+        {text}
+      </span>
+      <GoArrowUpRight className="fill-indigo-500" />
+    </button>
   ) : (
-    <button className="inline-flex items-center gap-1 border border-black/50 px-3 py-2 text-base hover:opacity-50 active:opacity-100">
-      {text}
-      <GoArrowUpRight className="fill-black" />
+    <button className="borderGradient inline-flex items-center gap-1 border px-3 py-2 text-base tracking-wider hover:opacity-50 active:opacity-100">
+      <span className="bg-primary-gradient bg-clip-text text-transparent">
+        {text}
+      </span>
+      {/* <GoArrowUpRight className="fill-indigo-500" /> */}
     </button>
   );
 };
 
 export default Button;
+{
+  /* <button className="inline-flex items-center gap-1 border border-black/50 px-3 py-2 text-base hover:opacity-50 active:opacity-100">
+      {text}
+      <GoArrowUpRight className="fill-black" />
+    </button> */
+}

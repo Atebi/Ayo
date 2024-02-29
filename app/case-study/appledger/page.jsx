@@ -15,7 +15,7 @@ const AppledgerPage = () => {
         {/* thumbnail and overview section */}
         <section className="mt-20">
           {/* appledger thumbnail image */}
-          <div className="relative w-full rounded-2xl">
+          <div data-aos="fade-in" className="relative w-full rounded-2xl">
             <Image
               src="/ayo/appl_thumb2.webp"
               // fill={true}
@@ -32,26 +32,26 @@ const AppledgerPage = () => {
           </div>
 
           {/* overview/summary */}
-          <div className="mt-16 grid w-full grid-cols-1 gap-14 border-y-[1px] border-neutral-300 py-16 text-sm uppercase tracking-widest md:grid-cols-2 md:justify-between 2xl:text-base">
+          <div data-aos="fade-up" className="mt-16 grid w-full grid-cols-1 gap-14 border-y-[1px] border-neutral-300 py-16 text-sm uppercase tracking-widest md:grid-cols-2 md:justify-between 2xl:text-base">
             {/* col-1 */}
             <div className="flex flex-col gap-14">
               <div>
-                <h4 className="mb-2">Title</h4>
+                <h4 className="mb-2 highlight">Title</h4>
                 <p className="font-medium">Appledger</p>
               </div>
 
               <div>
-                <h4 className="mb-2">Subtitle</h4>
+                <h4 className="mb-2 highlight">Subtitle</h4>
                 <p className="font-medium">App accounts manager.</p>
               </div>
 
               <div>
-                <h4 className="mb-2">Client</h4>
+                <h4 className="mb-2 highlight">Client</h4>
                 <p className="font-medium">Conceptual project</p>
               </div>
 
               <div>
-                <h4 className="mb-3">Timeline</h4>
+                <h4 className="mb-3 highlight">Timeline</h4>
                 <ul className="ml-5 flex list-inside list-disc flex-col gap-1 -indent-5">
                   <li>Overall 10 weeks</li>
                   <li>Research & analysis 2 weeks</li>
@@ -64,8 +64,8 @@ const AppledgerPage = () => {
             {/* Col-2 */}
             <div className="flex flex-col gap-14">
               <div>
-                <h4 className="mb-2">Role</h4>
-                <p className="mb-3 text-xl font-medium md:text-2xl lg:text-3xl">
+                <h4 className="mb-2 highlight">Role</h4>
+                <p className="mb-3 text-xl leading-8 md:leading-9 lg:leading-10 font-medium md:text-2xl lg:text-3xl">
                   I was the sole{" "}
                   <span className="highlight">
                     ui/ux designer and frontend developer
@@ -81,7 +81,7 @@ const AppledgerPage = () => {
               </div>
 
               <div>
-                <h4 className="mb-2">Links</h4>
+                <h4 className="mb-2 highlight">Links</h4>
                 <ul className="flex flex-col gap-4 lg:flex-row">
                   <li>
                     <Link href="https://www.figma.com/proto/E84xZikI87orYzxNaKlw7f/appLedger?type=design&node-id=34-441&t=3sgzyFApyqC663qq-0&scaling=scale-down&starting-point-node-id=384%3A304">
@@ -107,7 +107,7 @@ const AppledgerPage = () => {
         {/* Body section */}
         <section className="leading-8">
           {/* Appledger explanation */}
-          <div className="mx-auto mt-28 max-w-3xl md:text-center">
+          <div data-aos="fade-up" className="mx-auto mt-28 max-w-3xl md:text-center">
             <h2 className="mb-10 text-4xl font-bold lg:text-6xl">Appledger</h2>
             <p className="text-base leading-7 tracking-wider lg:text-lg lg:leading-8">
               An app directory for managing accounts. This innovative
@@ -131,7 +131,7 @@ const AppledgerPage = () => {
           <HR />
 
           {/* Problem statement */}
-          <div className="mx-auto mt-28 max-w-3xl md:text-center">
+          <div data-aos="fade-up" className="mx-auto mt-28 max-w-3xl md:text-center">
             <h2 className="mb-10 text-4xl font-bold lg:text-6xl">
               The Problem
             </h2>
@@ -157,7 +157,7 @@ const AppledgerPage = () => {
           <HR />
 
           {/* Project Goals/Objective */}
-          <div className="mx-auto mt-28 max-w-3xl md:text-center">
+          <div data-aos="fade-up" className="mx-auto mt-28 max-w-3xl md:text-center">
             <h2 className="mb-10 text-4xl font-bold lg:text-6xl">Objective</h2>
             <p className="text-base leading-7 tracking-wider lg:text-lg lg:leading-8">
               The goal of Appledger is{" "}
@@ -186,7 +186,7 @@ const AppledgerPage = () => {
           <HR />
 
           {/* Learnings */}
-          <div className="mx-auto mt-28 max-w-3xl md:text-center">
+          <div data-aos="fade-up" className="mx-auto mt-28 max-w-3xl md:text-center">
             <h2 className="mb-10 text-4xl font-bold lg:text-6xl">Learnings</h2>
             <p className="mb-10 text-base leading-7 tracking-wider lg:text-lg lg:leading-8">
               One of the most significant takeaways from this project was
@@ -225,7 +225,7 @@ const AppledgerPage = () => {
           <HR />
 
           {/* Thanks */}
-          <div className="mt-28 max-w-md lg:max-w-2xl">
+          <div data-aos="fade-up" className="mt-28 max-w-md lg:max-w-2xl">
             <h2 className="mb-6 text-4xl font-bold lg:text-6xl">
               Thanks for reading my case study
             </h2>
@@ -241,7 +241,7 @@ const AppledgerPage = () => {
           <HR />
 
           {/* Next Project */}
-          <div className="mx-auto mt-28 w-fit text-center tracking-widest">
+          <div data-aos="fade-up" className="mx-auto mt-28 w-fit text-center tracking-widest">
             <h6 className="mb-3 text-xs md:text-sm">NEXT PROJECT</h6>
             <h6 className="mb-3 text-base font-semibold md:text-lg">
               DECIBELL

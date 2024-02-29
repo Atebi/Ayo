@@ -6,11 +6,19 @@ import Button from "../../Button";
 const Solution = () => {
   return (
     <div className="leading-normal tracking-wider">
-      <h2 className="text-center text-4xl font-bold lg:text-6xl">Solution</h2>
+      <h2
+        data-aos="fade-up"
+        className="text-center text-4xl font-bold lg:text-6xl"
+      >
+        Solution
+      </h2>
       <HR />
 
       {/* persona */}
-      <div className="mb-12 mt-28 max-w-xl lg:mb-16 xl:mb-20">
+      <div
+        data-aos="fade-up"
+        className="mb-12 mt-28 max-w-xl lg:mb-16 xl:mb-20"
+      >
         <h3 className="mb-6 text-2xl font-medium lg:text-4xl">Persona</h3>
         <p>
           In order to gain a more comprehensive understanding of the project's
@@ -21,13 +29,19 @@ const Solution = () => {
       </div>
 
       {/* persona pain points */}
-      <div className="highlight mb-10 flex flex-col items-start justify-between gap-6 lg:flex-row">
+      <div
+        data-aos="fade-up"
+        className="highlight mb-10 flex flex-col items-start justify-between gap-6 lg:flex-row"
+      >
         <h4 className="w-full text-xl font-medium lg:sticky lg:left-0 lg:top-24 lg:text-2xl">
           Persona pain points
         </h4>
 
         {/* points */}
-        <div className="grid max-w-3xl grid-cols-1 gap-8 md:grid-cols-2">
+        <div
+          data-aos="fade-up"
+          className="grid max-w-3xl grid-cols-1 gap-8 delay-300 md:grid-cols-2"
+        >
           {/* pain point 1 */}
           <div>
             <p className="mb-1 font-medium">A book just isn't safe</p>
@@ -77,7 +91,7 @@ const Solution = () => {
       </div>
 
       {/* user flow */}
-      <div className="mb-16 mt-28 max-w-xl lg:mb-28">
+      <div data-aos="fade-up" className="mb-16 mt-28 max-w-xl lg:mb-28">
         <h3 className="mb-6 text-2xl font-medium lg:text-4xl">User Flow</h3>
         <p>
           With the project objective in mind, I created an initial sketch of the
@@ -94,7 +108,10 @@ const Solution = () => {
           User flow created in Figma
         </i>
         {/* user flow img */}
-        <div className="relative mx-auto mb-10 block w-full bg-neutral-200/50 p-5 opacity-60 shadow-2xl">
+        <div
+          data-aos="fade-up"
+          className="relative mx-auto mb-10 block w-full bg-neutral-200/50 p-5 opacity-60 shadow-2xl"
+        >
           <Image
             src="/ayo/appl_flow.webp"
             alt="Appledger user flow image"
@@ -111,7 +128,7 @@ const Solution = () => {
       {/****/}
 
       {/* ui design */}
-      <div className="mb-16 mt-28 max-w-xl lg:mb-28">
+      <div data-aos="fade-up" className="mb-16 mt-28 max-w-xl lg:mb-28">
         <h3 className="mb-6 text-2xl font-medium lg:text-4xl">UI Design</h3>
         <p>
           After determining the user journey, I proceeded to design the final
@@ -129,7 +146,10 @@ const Solution = () => {
           Style guide created in Figma
         </i>
         {/* style guide img for ui design */}
-        <div className="relative mx-auto mb-10 block w-full bg-neutral-200/50 py-10">
+        <div
+          data-aos="fade-up"
+          className="relative mx-auto mb-10 block w-full bg-neutral-200/50 py-10"
+        >
           <Image
             src="/ayo/appl_style.webp"
             alt="Appledger style guide image"
@@ -148,7 +168,10 @@ const Solution = () => {
       {/* features with images */}
 
       {/* feature-1 */}
-      <div className="mt-28 flex flex-wrap items-center justify-center gap-8 md:flex-row-reverse lg:mt-40">
+      <div
+        data-aos="fade-up"
+        className="mt-28 flex flex-wrap items-center justify-center gap-8 md:flex-row-reverse lg:mt-40"
+      >
         <div className="max-w-md text-center lg:max-w-sm lg:text-left">
           <p className="mb-2 text-lg font-medium">One-time master password</p>
           <p>
@@ -185,7 +208,10 @@ const Solution = () => {
       </div>
 
       {/* feature-2 */}
-      <div className="mt-28 flex flex-wrap items-center justify-center gap-8 lg:mt-40">
+      <div
+        data-aos="fade-up"
+        className="mt-28 flex flex-wrap items-center justify-center gap-8 lg:mt-40"
+      >
         <div className="max-w-md text-center lg:max-w-sm lg:text-left">
           <p className="mb-2 text-lg font-medium">Home screen</p>
           <p>
@@ -218,7 +244,10 @@ const Solution = () => {
       </div>
 
       {/* feature-3 */}
-      <div className="mt-28 flex flex-wrap items-center justify-center gap-8 md:flex-row-reverse lg:mt-40">
+      <div
+        data-aos="fade-up"
+        className="mt-28 flex flex-wrap items-center justify-center gap-8 md:flex-row-reverse lg:mt-40"
+      >
         <div className="max-w-md text-center lg:max-w-sm lg:text-left">
           <p className="mb-2 text-lg font-medium"> Create new entry screen</p>
           <p>
@@ -250,7 +279,10 @@ const Solution = () => {
       </div>
 
       {/* feature-4 */}
-      <div className="mt-28 flex flex-wrap items-center justify-center gap-8 lg:mt-40">
+      <div
+        data-aos="fade-up"
+        className="mt-28 flex flex-wrap items-center justify-center gap-8 lg:mt-40"
+      >
         <div className="max-w-md text-center lg:max-w-sm lg:text-left">
           <p className="mb-2 text-lg font-medium"> View entry screen</p>
           <p>
@@ -283,8 +315,11 @@ const Solution = () => {
       </div>
 
       {/* feature-5 */}
-      <div className="mt-28 flex flex-wrap items-center justify-center gap-8 md:flex-row-reverse lg:mt-40">
-        <div className="max-w-md text-center lg:max-w-sm xl:text-left">
+      <div
+        data-aos="fade-up"
+        className="mt-28 flex flex-wrap items-center justify-center gap-8 md:flex-row-reverse lg:mt-40"
+      >
+        <div className="max-w-md text-center lg:max-w-sm">
           <p className="mb-2 text-lg font-medium"> Light and dark themes</p>
           <p>
             Users can choose between light and dark themes based on their
@@ -293,9 +328,10 @@ const Solution = () => {
         </div>
 
         {/*  twin images for light and dark theme*/}
-        <div className="flex w-full flex-wrap justify-center gap-6 lg:gap-0 xl:w-fit">
+        <div className="flex w-full flex-wrap justify-center gap-6 lg:gap-0 ">
           {/* light-theme img */}
           <Image
+            data-aos="fade-right"
             src="/ayo/appl_home.webp"
             // fill={true}
             alt="Appledger home screen image"
@@ -317,6 +353,7 @@ const Solution = () => {
 
           {/* dark-theme img */}
           <Image
+            data-aos="fade-left"
             src="/ayo/appl_homeDark.webp"
             // fill={true}
             alt="Appledger home dark screen image"
@@ -341,6 +378,7 @@ const Solution = () => {
       {/* go to figma prototype */}
 
       <Link
+        data-aos="fade-up"
         href="https://www.figma.com/proto/E84xZikI87orYzxNaKlw7f/appLedger?type=design&node-id=34-441&t=3sgzyFApyqC663qq-0&scaling=scale-down&starting-point-node-id=384%3A304"
         className="mx-auto mt-16 block w-fit lg:mt-24"
       >
@@ -349,7 +387,7 @@ const Solution = () => {
       {/**End of ui design category section**/}
 
       {/* frontend dev */}
-      <div className="mb-16 mt-28 max-w-xl lg:mb-28">
+      <div data-aos="fade-up" className="mb-16 mt-28 max-w-xl lg:mb-28">
         <h3 className="mb-6 text-2xl font-medium lg:text-4xl">
           Frontend Development
         </h3>
@@ -370,7 +408,10 @@ const Solution = () => {
           Code file with Nextjs(13) structure
         </i>
         {/* code img for decibell */}
-        <div className="relative mx-auto mb-10 block w-full max-w-6xl bg-neutral-200/50 p-5 shadow-2xl md:p-10">
+        <div
+          data-aos="fade-up"
+          className="relative mx-auto mb-10 block w-full max-w-6xl bg-neutral-200/50 p-5 shadow-2xl md:p-10"
+        >
           <Image
             src="/ayo/appl_code.webp"
             alt="Appledger VScode image"
@@ -385,7 +426,10 @@ const Solution = () => {
         </div>
 
         {/* go to live site */}
-        <div className="mx-auto mt-16 flex w-fit flex-wrap gap-6 lg:mt-24">
+        <div
+          data-aos="fade-up"
+          className="mx-auto mt-16 flex w-fit flex-wrap gap-6 lg:mt-24"
+        >
           <Link href="https://appledger.vercel.app">
             <Button text="VISIT SITE" />
           </Link>

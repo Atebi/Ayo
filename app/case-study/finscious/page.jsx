@@ -15,7 +15,7 @@ const FinsciousPage = () => {
         {/* thumbnail and overview section */}
         <section className="mt-20">
           {/* finscious thumbnail image */}
-          <div className="relative w-full rounded-2xl">
+          <div data-aos="fade-in" className="relative w-full rounded-2xl">
             <Image
               src="/ayo/fin_thumb2.webp"
               // fill={true}
@@ -32,30 +32,33 @@ const FinsciousPage = () => {
           </div>
 
           {/* overview/summary */}
-          <div className="mt-16 grid w-full grid-cols-1 gap-14 border-y-[1px] border-neutral-300 py-16 text-sm uppercase tracking-widest md:grid-cols-2 md:justify-between 2xl:text-base">
+          <div
+            data-aos="fade-up"
+            className="mt-16 grid w-full grid-cols-1 gap-14 border-y-[1px] border-neutral-300 py-16 text-sm uppercase tracking-widest md:grid-cols-2 md:justify-between 2xl:text-base"
+          >
             {/* col-1 */}
             <div className="flex flex-col gap-14">
               <div>
-                <h4 className="mb-2">Title</h4>
+                <h4 className="highlight mb-2">Title</h4>
                 <p className="font-medium">Finscious</p>
               </div>
 
               <div>
-                <h4 className="mb-2">Subtitle</h4>
+                <h4 className="highlight mb-2">Subtitle</h4>
                 <p className="font-medium">Income and expense tracker app.</p>
               </div>
 
               <div>
-                <h4 className="mb-2">Client</h4>
+                <h4 className="highlight mb-2">Client</h4>
                 <p className="font-medium">Conceptual project</p>
               </div>
 
               <div>
-                <h4 className="mb-3">Timeline</h4>
+                <h4 className="highlight mb-3">Timeline</h4>
                 <ul className="ml-5 flex list-inside list-disc flex-col gap-1 -indent-5">
                   <li>Overall 10 weeks</li>
                   <li>Research & analysis 2 weeks</li>
-                  <li>Design & Prototype Testing 8 weeks</li>
+                  <li>UI/UX Product Design & Prototype Testing 8 weeks</li>
                   {/* <li>Frontend Development 4 weeks</li> */}
                 </ul>
               </div>
@@ -64,22 +67,21 @@ const FinsciousPage = () => {
             {/* Col-2 */}
             <div className="flex flex-col gap-14">
               <div>
-                <h4 className="mb-2">Role</h4>
-                <p className="mb-3 text-xl font-medium md:text-2xl lg:text-3xl">
+                <h4 className="highlight mb-2">Role</h4>
+                <p className="mb-3 text-xl font-medium leading-8 md:text-2xl md:leading-9 lg:text-3xl lg:leading-10">
                   I was the sole{" "}
-                  <span className="highlight">ui/ux designer</span> through out
-                  the product cycle.
+                  <span className="highlight">product designer</span> through
+                  out the product cycle.
                 </p>
 
                 <ul className="ml-5 flex list-inside list-disc flex-col gap-1 -indent-5">
                   <li>UX analysis</li>
                   <li>App Design</li>
-                  {/* <li>Frontend Development</li> */}
                 </ul>
               </div>
 
               <div>
-                <h4 className="mb-2">Links</h4>
+                <h4 className="highlight mb-2">Links</h4>
 
                 <Link href="https://www.figma.com/proto/jtXxpkLUjnEm4vUfb6tGlT/Finscious?type=design&node-id=401-3374&t=gtBCilzw7j8sKouF-0&scaling=scale-down&starting-point-node-id=529%3A3026">
                   <Button text="PROTOTYPE" />
@@ -92,7 +94,10 @@ const FinsciousPage = () => {
         {/* Body section */}
         <section className="leading-8">
           {/* Finscious explanation */}
-          <div className="mx-auto mt-28 max-w-4xl md:text-center">
+          <div
+            data-aos="fade-up"
+            className="mx-auto mt-28 max-w-4xl md:text-center"
+          >
             <h2 className="mb-10 text-4xl font-bold lg:text-6xl">Finscious</h2>
             <p className="text-base leading-7 tracking-wider lg:text-lg lg:leading-8">
               Finscious is a comprehensive financial management application that
@@ -121,7 +126,10 @@ const FinsciousPage = () => {
           <HR />
 
           {/* Problem statement */}
-          <div className="mx-auto mt-28 max-w-4xl md:text-center">
+          <div
+            data-aos="fade-up"
+            className="mx-auto mt-28 max-w-4xl md:text-center"
+          >
             <h2 className="mb-10 text-4xl font-bold lg:text-6xl">
               The Problem
             </h2>
@@ -147,7 +155,10 @@ const FinsciousPage = () => {
           <HR />
 
           {/* Project Goals/Objective */}
-          <div className="mx-auto mt-28 max-w-4xl md:text-center">
+          <div
+            data-aos="fade-up"
+            className="mx-auto mt-28 max-w-4xl md:text-center"
+          >
             <h2 className="mb-10 text-4xl font-bold lg:text-6xl">
               Finscious Objective
             </h2>
@@ -187,7 +198,10 @@ const FinsciousPage = () => {
           <HR />
 
           {/* Learnings */}
-          <div className="mx-auto my-28 max-w-4xl md:text-center">
+          <div
+            data-aos="fade-up"
+            className="mx-auto my-28 max-w-4xl md:text-center"
+          >
             <h2 className="mb-10 text-4xl font-bold leading-none lg:text-6xl">
               Learnings
             </h2>
@@ -211,7 +225,10 @@ const FinsciousPage = () => {
             </p>
 
             {/* stand-alone */}
-            <div className="highlight mx-auto mb-8 leading-7 tracking-wider lg:leading-8">
+            <div
+              data-aos="fade-up"
+              className="highlight mx-auto mb-8 leading-7 tracking-wider lg:leading-8"
+            >
               <p className="mb-1 text-lg font-medium">Stand-alone platform</p>
               <p className="text-base">
                 Finscious serves as a versatile bookkeeping application suitable
@@ -223,7 +240,10 @@ const FinsciousPage = () => {
             </div>
 
             {/* stand-alone */}
-            <div className="highlight mx-auto mb-8 leading-7 tracking-wider lg:leading-8">
+            <div
+              data-aos="fade-up"
+              className="highlight mx-auto mb-8 leading-7 tracking-wider lg:leading-8"
+            >
               <p className="mb-1 text-lg font-medium">Fintech integration</p>
               <p className="text-base">
                 One of the best use cases for Finscious lies within the context
@@ -241,7 +261,7 @@ const FinsciousPage = () => {
           <HR />
 
           {/* Thanks */}
-          <div className="mt-28 max-w-md lg:max-w-2xl">
+          <div data-aos="fade-up" className="mt-28 max-w-md lg:max-w-2xl">
             <h2 className="mb-6 text-4xl font-bold lg:text-6xl">
               Thanks for reading my case study
             </h2>
@@ -257,7 +277,10 @@ const FinsciousPage = () => {
           <HR />
 
           {/* Next Project */}
-          <div className="mx-auto mt-28 w-fit text-center tracking-widest">
+          <div
+            data-aos="fade-up"
+            className="mx-auto mt-28 w-fit text-center tracking-widest"
+          >
             <h6 className="mb-3 text-xs md:text-sm">NEXT PROJECT</h6>
             <h6 className="mb-3 text-base font-semibold md:text-lg">
               APPLEDGER

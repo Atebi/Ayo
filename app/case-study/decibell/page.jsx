@@ -15,7 +15,7 @@ const DecibellPage = () => {
         {/* thumbnail and overview section */}
         <section className="mt-20">
           {/* decibell thumbnail image */}
-          <div className="relative w-full rounded-2xl">
+          <div data-aos="fade-in" className="relative w-full rounded-2xl">
             <Image
               src="/ayo/deci_hero.webp"
               // fill={true}
@@ -32,28 +32,31 @@ const DecibellPage = () => {
           </div>
 
           {/* overview/summary */}
-          <div className="mt-16 grid w-full grid-cols-1 gap-14 border-y-[1px] border-neutral-300 py-16 text-sm uppercase tracking-widest md:grid-cols-2 md:justify-between 2xl:text-base">
+          <div
+            data-aos="fade-up"
+            className="mt-16 grid w-full grid-cols-1 gap-14 border-y-[1px] border-neutral-300 py-16 text-sm uppercase tracking-widest md:grid-cols-2 md:justify-between 2xl:text-base"
+          >
             {/* col-1 */}
             <div className="flex flex-col gap-14">
               <div>
-                <h4 className="mb-2">Title</h4>
+                <h4 className="highlight mb-2">Title</h4>
                 <p className="font-medium">Decibell</p>
               </div>
 
               <div>
-                <h4 className="mb-2">Subtitle</h4>
+                <h4 className="highlight mb-2">Subtitle</h4>
                 <p className="font-medium">
                   Instant collaboration between musicians.
                 </p>
               </div>
 
               <div>
-                <h4 className="mb-2">Client</h4>
+                <h4 className="highlight mb-2">Client</h4>
                 <p className="font-medium">Conceptual project</p>
               </div>
 
               <div>
-                <h4 className="mb-3">Timeline</h4>
+                <h4 className="highlight mb-3">Timeline</h4>
                 <ul className="ml-5 flex list-inside list-disc flex-col gap-1 -indent-5">
                   <li>Overall 6 weeks</li>
                   <li>Research & analysis 1 week</li>
@@ -66,8 +69,8 @@ const DecibellPage = () => {
             {/* Col-2 */}
             <div className="flex flex-col gap-14">
               <div>
-                <h4 className="mb-2">Role</h4>
-                <p className="mb-3 text-xl font-medium md:text-2xl lg:text-3xl">
+                <h4 className="highlight mb-2">Role</h4>
+                <p className="mb-3 text-xl font-medium leading-8 md:text-2xl md:leading-9 lg:text-3xl lg:leading-10">
                   I was the sole{" "}
                   <span className="highlight">
                     ui/ux designer and frontend developer
@@ -77,13 +80,14 @@ const DecibellPage = () => {
 
                 <ul className="ml-5 flex list-inside list-disc flex-col gap-1 -indent-5">
                   {/* <li>UX analysis</li> */}
-                  <li>Ui/Ux Design</li>
+                  <li>UI/UX Design</li>
+                  <li>Logo Design</li>
                   <li>Frontend Development</li>
                 </ul>
               </div>
 
               <div>
-                <h4 className="mb-2">Links</h4>
+                <h4 className="highlight mb-2">Links</h4>
                 <ul className="flex flex-col gap-4 lg:flex-row">
                   <li>
                     <Link href="https://www.figma.com/proto/7ZeLieWJ9wg9txKCZY5NqI/Decibell?type=design&node-id=32-1120&t=1oku1wgVt64PB96v-0&scaling=min-zoom&starting-point-node-id=755%3A4065">
@@ -109,7 +113,7 @@ const DecibellPage = () => {
         {/* Body section */}
         <section>
           {/* Decibell explanation */}
-          <div className="mx-auto mt-28 max-w-4xl md:text-center">
+          <div data-aos="fade-up" className="mx-auto mt-28 max-w-4xl md:text-center">
             <h2 className="mb-10 text-4xl font-bold lg:text-6xl">Decibell</h2>
             <p className="text-base leading-7 tracking-wider lg:text-lg lg:leading-8">
               Decibell represents a vibrant and dynamic social platform,
@@ -137,7 +141,7 @@ const DecibellPage = () => {
           <HR />
 
           {/* Problem statement */}
-          <div className="mx-auto mt-28 max-w-4xl md:text-center">
+          <div data-aos="fade-up" className="mx-auto mt-28 max-w-4xl md:text-center">
             <h2 className="mb-10 text-4xl font-bold lg:text-6xl">
               The Problem
             </h2>
@@ -163,7 +167,7 @@ const DecibellPage = () => {
           <HR />
 
           {/* Project Goals/Objective */}
-          <div className="mx-auto mt-28 max-w-4xl md:text-center">
+          <div data-aos="fade-up" className="mx-auto mt-28 max-w-4xl md:text-center">
             <h2 className="mb-10 text-4xl font-bold lg:text-6xl">
               Project Goal
             </h2>
@@ -194,7 +198,7 @@ const DecibellPage = () => {
           <HR />
 
           {/* Learnings */}
-          <div className="mx-auto mt-28 max-w-4xl md:text-center">
+          <div data-aos="fade-up" className="mx-auto mt-28 max-w-4xl md:text-center">
             <h2 className="mb-10 text-4xl font-bold leading-none lg:text-6xl">
               Learnings
             </h2>
@@ -231,7 +235,7 @@ const DecibellPage = () => {
           <HR />
 
           {/* Thanks */}
-          <div className="mt-28 max-w-md lg:max-w-2xl">
+          <div data-aos="fade-up" className="mt-28 max-w-md lg:max-w-2xl">
             <h2 className="mb-6 text-4xl font-bold lg:text-6xl">
               Thanks for reading my case study
             </h2>
@@ -247,7 +251,7 @@ const DecibellPage = () => {
           <HR />
 
           {/* Next Project */}
-          <div className="mx-auto mt-28 w-fit text-center tracking-widest">
+          <div data-aos="fade-up" className="mx-auto mt-28 w-fit text-center tracking-widest">
             <h6 className="mb-3 text-xs md:text-sm">NEXT PROJECT</h6>
             <h6 className="mb-3 text-base font-semibold md:text-lg">
               FINSCIOUS

@@ -17,6 +17,7 @@ const AboutPage = () => {
         <section>
           {/* img */}
           <Image
+            data-aos="fade-up"
             src="/ayo/atebi_about.webp"
             alt="my image"
             priority={true}
@@ -32,10 +33,13 @@ const AboutPage = () => {
           />
           {/**/}
 
-          <h1 className="mt-6 text-center text-3xl font-semibold leading-normal lg:mb-4 lg:text-6xl">
+          <h1
+            data-aos="fade-up"
+            className="mt-6 text-center text-3xl font-semibold leading-normal delay-200 lg:mb-4 lg:text-6xl"
+          >
             Ayo Iyela
           </h1>
-          <p className="text-center">
+          <p data-aos="fade-up" className="text-center delay-500">
             /
             <span className="highlight font-medium italic">
               ah-yuh e-yeah-lah
@@ -44,23 +48,27 @@ const AboutPage = () => {
           </p>
 
           {/* about me */}
-          <div className="mx-auto mt-10 max-w-2xl text-base font-medium leading-7 tracking-wider lg:mt-14">
+          <div
+            data-aos="fade-up"
+            className="mx-auto mt-10 max-w-2xl text-base font-medium leading-7 tracking-wider delay-1000 lg:mt-14"
+          >
             {/* <h1 className="mb-10 text-3xl font-semibold leading-normal lg:text-xl">
               About Me
             </h1> */}
-            <p className="mb-4">
-              As a UI/UX designer and front-end developer, my unique edge in
+            <p data-aos="fade-up" className="mb-4">
+              As a UI/UX designer and front-end developer with over a year's
+              worth of experience, my unique edge in analytical reasoning,
               problem-solving and organization, which comes from my bachelor's
               degree in accounting, makes me confident in my ability to craft
               effective solutions for complex tasks.
             </p>
-            <p className="mb-4">
-              I chose UI/UX and front-end development as my career path because
-              I am passionate about ideating and synthesizing research from
-              multiple sources to create elegant designs.
+            <p data-aos="fade-up" className="mb-4">
+              I transitioned into UI/UX and front-end development because of my
+              passion for merging ideation, analytical reasoning and creative
+              expression to produce elegant user experiences.
             </p>
 
-            <p className="mb-4">
+            <p data-aos="fade-up" className="mb-4">
               My main career goal is to continue advancing my skills and gaining
               experience to become a fully-fledged{" "}
               <span className="bg-primary-gradient bg-clip-text font-semibold text-transparent">
@@ -73,7 +81,7 @@ const AboutPage = () => {
               .
             </p>
 
-            <p className="mb-6">
+            <p data-aos="fade-up" className="mb-6">
               I am committed to working collaboratively with you in delivering
               solutions to your specific needs. With my attention to detail and
               dedication to quality, you can trust me to create digital
@@ -81,12 +89,24 @@ const AboutPage = () => {
               user-friendly and intuitive.
             </p>
 
-            <Link href="/contact">
-              <Button text="Let's connect!" mode="primary" />
-            </Link>
+            <div
+              data-aos="fade-up"
+              className="mt-16 flex w-fit flex-wrap gap-6 lg:mt-24"
+            >
+              <Link
+                href="/cv.pdf"
+                rel="noreferrer"
+                download="cv"
+                target="_blank"
+              >
+                <Button text="Résumé" mode="tertiary" />
+              </Link>
+              <Link href="/contact">
+                <Button text="Let's connect!" mode="primary" />
+              </Link>
+            </div>
           </div>
           {/**/}
-          {/* <Button text="Contact me" mode="primary" /> */}
         </section>
 
         {/****/}
@@ -95,7 +115,7 @@ const AboutPage = () => {
 
         {/* Area of Focus */}
 
-        <section>
+        <section data-aos="fade-up">
           <h2 className="mb-6 text-2xl font-medium">My Area of Focus</h2>
 
           {/* focus with images */}
@@ -188,7 +208,7 @@ const AboutPage = () => {
 
         {/* Tools */}
 
-        <section>
+        <section data-aos="fade-up">
           <h2 className="mb-4 text-2xl font-medium">Major Tools</h2>
           <p className="mb-10 max-w-lg text-sm xl:text-base">
             I rely on these tools for everything, from research and analysis, to

@@ -11,8 +11,11 @@ const HomePage = () => {
       {/* Body */}
       <div className="mt-32 max-w-[1536px] px-6 lg:mt-40 lg:px-24 xl:px-36">
         {/* hero section */}
-        <section className="flex animate-fade flex-wrap justify-center gap-14 lg:items-center lg:justify-between lg:gap-0">
-          <h1 className="max-w-md text-xl font-semibold leading-9 tracking-wider lg:text-4xl lg:leading-normal xl:max-w-xl xl:text-5xl xl:leading-snug">
+        <section className="flex flex-wrap justify-center gap-14 lg:items-center lg:justify-between lg:gap-0">
+          <h1
+            data-aos="fade-up"
+            className="max-w-md text-xl font-semibold leading-9 tracking-wider lg:text-4xl lg:leading-normal xl:max-w-xl xl:text-5xl xl:leading-snug"
+          >
             I'm Ayo, a creative developer. I bring your ideas to life through{" "}
             <span className="bg-primary-gradient bg-clip-text text-transparent">
               UI/UX design
@@ -24,8 +27,11 @@ const HomePage = () => {
             .
           </h1>
           {/* hero img */}
-          <div className="relative rounded bg-primary-gradient p-[1px]">
-            <div className="rounded bg-white/40 px-2 py-4 duration-500 ease-in">
+          <div
+            data-aos="fade-left"
+            className="relative rounded bg-primary-gradient p-[1px]"
+          >
+            <div className="rounded bg-primary-gradient px-2 py-4">
               <Image
                 src="/ayo/atebi_home.webp"
                 alt="my image"
@@ -43,11 +49,11 @@ const HomePage = () => {
             </div>
 
             {/* background frames */}
-            <div className="absolute top-0 -z-10 h-full w-full rotate-6 rounded bg-primary-gradient p-[1px] duration-700 ease-in">
-              <div className="h-full w-full rounded bg-white/40"></div>
+            <div className="absolute top-0 -z-10 h-full w-full rotate-6 rounded bg-primary-gradient p-[1px]">
+              <div className="h-full w-full rounded bg-primary-gradient"></div>
             </div>
-            <div className="absolute top-0 -z-10 h-full w-full -rotate-6 rounded bg-primary-gradient p-[1px] duration-1000 ease-in">
-              <div className="h-full w-full rounded bg-white/40"></div>
+            <div className="absolute top-0 -z-10 h-full w-full -rotate-6 rounded bg-primary-gradient p-[1px]">
+              <div className="h-full w-full rounded bg-primary-gradient"></div>
             </div>
           </div>
         </section>
@@ -58,7 +64,7 @@ const HomePage = () => {
         {/* Projects */}
         <section className="grid place-items-center gap-10 text-center md:gap-14 lg:gap-16">
           {/* Project-1 */}
-          <div className="w-full">
+          <div data-aos="fade-up" className="w-full">
             <Link href="/case-study/finscious">
               {/* finscious thumbnail image */}
               <div className="group relative w-full overflow-hidden bg-slate-300">
@@ -87,7 +93,7 @@ const HomePage = () => {
           </div>
 
           {/* Project-2 */}
-          <div className="w-full">
+          <div data-aos="fade-up" className="w-full">
             <Link href="/case-study/appledger">
               {/* appledger thumbnail image */}
               <div className="group relative w-full overflow-hidden bg-slate-300">
@@ -115,7 +121,7 @@ const HomePage = () => {
           </div>
 
           {/* Project-3 */}
-          <div className="w-full">
+          <div data-aos="fade-up" className="w-full">
             <Link href="/case-study/decibell">
               {/* deci thumbnail image */}
               <div className="group relative w-full overflow-hidden bg-slate-300">

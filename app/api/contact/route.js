@@ -1,6 +1,5 @@
 import Transporter from "@/app/utils/nodemailer";
 import { NextResponse } from "next/server";
-import { resolve } from "styled-jsx/css";
 
 require("dotenv").config();
 const FIRST = process.env.first_reciever;

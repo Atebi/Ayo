@@ -15,7 +15,7 @@ const ContactPage = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-10 xl:gap-20">
           {/* Image with social links section */}
 
-          <section className="animate-fade">
+          <section>
             {/* img */}
             <Image
               src="/ayo/atebi_contact.webp"
@@ -29,11 +29,13 @@ const ContactPage = () => {
               }}
               sizes="100vw , (max-width: 896px) 25vw"
               quality={100}
-              className="greyImg grayscale"
             />
             {/**/}
             {/* social links */}
-            <div className="mx-auto flex w-fit gap-6 bg-white p-3 shadow-2xl lg:p-5">
+            <div
+              data-aos="fade-right"
+              className="shadow-2xllg:p-5 mx-auto flex w-fit gap-6 bg-white p-3"
+            >
               <Link
                 href="mailto:ayomideiyela@gmail.com"
                 className="hover:opacity-50 active:opacity-100"
@@ -47,7 +49,7 @@ const ContactPage = () => {
               </Link>
 
               <Link
-                href="https://www.linkedin.com/in/ayomide-iyela-b173802b0"
+                href="https://www.linkedin.com/in/pixelayo"
                 className="hover:opacity-50 active:opacity-100"
                 target="_blank"
               >
@@ -63,21 +65,27 @@ const ContactPage = () => {
           </section>
           {/****/}
 
-          <hr className="my-16 animate-fade border-t-[1px] border-neutral-950/5 lg:my-24 lg:hidden lg:border-neutral-950/10" />
+          <hr className="my-16 animate-fade border-t-[1px] border-neutral-300/80 lg:my-24 lg:hidden lg:border-neutral-300/90" />
 
           {/* Contact Form section */}
 
-          <section className="max-w-xl animate-fade">
-            <h1 className="mb-6 text-3xl font-bold lg:mb-8 lg:text-4xl">
+          <section className="max-w-xl">
+            <h1
+              data-aos="fade-up"
+              className="mb-6 text-3xl font-bold delay-200 lg:mb-8 lg:text-4xl"
+            >
               Get in touch!
             </h1>
-            <p className="max-w-md text-base lg:text-lg">
+            <p
+              data-aos="fade-up"
+              className="max-w-md text-base delay-500 lg:text-lg"
+            >
               Do you have a product idea? need a designer or a frontend
               developer or both? Drop me an email!
             </p>
-            <div>
+            <div data-aos="fade-up" className="delay-1000">
               {/* form */}
-              <div className="mt-6 w-full duration-500 ease-in">
+              <div className="mt-6 w-full">
                 <Form />
               </div>
               {/**/}

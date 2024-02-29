@@ -92,4 +92,4 @@ Learn more about me [here](https://pixelayo.vercel.app/ayo/about).
 If you'd like to talk more about my portfolio, talk about another project or just want to say hi,<br> contact me here:
 
 - [@Ayo](https://pixelayo.vercel.app/ayo/contact)
-- Linkedin - [@Ayo](www.linkedin.com/in/ayomide-iyela-b173802b0)
+- Linkedin - [@Ayo](www.linkedin.com/in/pixelayo)
